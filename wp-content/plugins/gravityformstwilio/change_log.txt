@@ -1,0 +1,11 @@
+------------------------------------------------
+Version 1.0
+    - Added URL shortening support
+    - Changed Bitly short URL to http://j.mp
+    - Removing formatting characters from TO number when sending request to Twilio
+
+------------------------------------------------
+Version 0.2
+    - Added feedback on settings page
+    - Added integration with PayPal so that SMS messages can be sent only when payment is received.
+    - Added helper text and tooltips

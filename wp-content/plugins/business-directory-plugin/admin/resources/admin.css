@@ -1,0 +1,332 @@
+span.tag {
+    background: #444;
+    border-radius: 2px;
+    padding: 2px 5px;
+    color: #fff;
+    font-size: 90%;
+    margin-right: 2px;
+}
+
+/* Sidebar */
+.wpbdp-admin-content.with-sidebar {
+    margin-top: 20px;
+    /*float: left;*/
+    /*width: 80%;*/
+    /*margin-right: 300px;*/
+    clear: left;
+    float: left;
+    width: 78%;
+}
+
+.wpbdp-admin .sidebar {
+    margin-top: 20px;
+    float: right;
+    clear: right;
+    width: 20%;
+}
+
+.wpbdp-admin .sidebar .postbox {
+    min-width: 0 !important;
+}
+
+.wpbdp-admin .sidebar .premium-modules h3 span {
+    color: #145200;
+    font-weight: bold;
+}
+
+.wpbdp-admin .sidebar .premium-modules  {
+    border-color: #0EAD00;
+    border-width: 3px;
+    background: #FFFFCF;
+}
+
+/* Directory list-table */
+td.column-bd_payment_status .status, td.column-bd_sticky_status .status {
+    background: #444;
+    border-radius: 2px;
+    padding: 2px 5px;
+    color: #fff;
+    font-size: 90%;
+}
+
+td.column-bd_payment_status .status.paid {
+    background: green;
+}
+
+td.column-bd_payment_status .paymentdata {
+    font-size: 85%;
+}
+
+td.column-bd_payment_status .paymentdata b {
+    font-weight: normal;
+}
+
+td.column-bd_payment_status .paymentdata span {
+    font-style: italic;
+}
+
+td.column-bd_sticky_status .status.notpaid {
+    background: orange;
+}
+
+td.column-bd_sticky_status .status.pending {
+    background: red;
+    font-weight: bold;
+}
+
+td.column-bd_sticky_status .status.sticky {
+    background: green;
+}
+
+#BusinessDirectory_listinginfo .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#BusinessDirectory_listinginfo .inside .clear {
+}
+
+#BusinessDirectory_listinginfo .listing-metabox-tabs {
+    display: block;
+    border-bottom: solid 1px #ddd !important;
+}
+
+#BusinessDirectory_listinginfo .listing-metabox-tabs li {
+    display: inline;
+    padding: 3px 8px;
+    margin-right: 4px;
+}
+
+#BusinessDirectory_listinginfo .listing-metabox-tabs li a {
+    text-decoration: none;
+}
+
+#BusinessDirectory_listinginfo .listing-metabox-tabs li.selected {
+    background: #ddd;
+}
+
+#BusinessDirectory_listinginfo #listing-metabox-generalinfo, #BusinessDirectory_listinginfo #listing-metabox-fees, #BusinessDirectory_listinginfo #listing-metabox-transactions {
+    display: none;
+    /*font-size: 95%;*/
+}
+
+#BusinessDirectory_listinginfo #listing-metabox-generalinfo > strong, #BusinessDirectory_listinginfo #listing-metabox-fees > strong, #BusinessDirectory_listinginfo #listing-metabox-transactions > strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#listing-metabox-transactions > .transaction {
+    border-top: solid 1px #ddd;
+}
+
+#listing-metabox-transactions .transaction {
+    background: #fff;    
+    border-bottom: solid 1px #ddd;
+}
+
+#listing-metabox-transactions .transaction .summary {
+    cursor: pointer;
+    padding: 2px;
+}
+
+#listing-metabox-transactions .transaction.open .summary {
+    background: #efefef;
+}
+
+#listing-metabox-transactions .transaction .summary .handle a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 2px;
+    width: 10px;
+    display: inline-block;
+}
+
+#listing-metabox-transactions .transaction .summary span {
+    margin-right: 4px;
+}
+
+#listing-metabox-transactions .transaction .summary .status.approved {
+    background: green;
+}
+
+#listing-metabox-transactions .transaction .summary .status.pending {
+    background: red;
+}
+
+#listing-metabox-transactions .transaction .details {
+    display: none;
+    margin-left: 5px;
+}
+
+#listing-metabox-transactions .transaction .details dt {
+    color: #595959;
+}
+
+/* Listing info metabox / fees */
+#listing-metabox-fees .category-name {
+    text-decoration: underline;
+}
+
+#listing-metabox-fees dl.feeinfo dt {
+    float: left;
+    color: #595959;
+    width: 80px;
+}
+
+#listing-metabox-fees dl.feeinfo dd {
+    margin-bottom: 0;
+}
+
+#listing-metabox-fees .assignfee {
+    display: none;
+}
+
+#listing-metabox-fees .assignfee .close-handle a {
+    display: block;
+    text-align: right;
+    font-size: 9px;
+    color: #900000;
+    text-decoration: underline;
+}
+
+
+#listing-metabox-fees .assignfee .feeoption {
+    padding: 5px;
+    background: #efefef;
+    border-bottom: solid 1px #ddd;
+    color: #494949;
+}
+
+#listing-metabox-fees .assignfee .feeoption .button {
+    float: right;
+}
+
+#listing-metabox-generalinfo dl dt {
+    color: #595959;
+}
+
+#listing-metabox-generalinfo .tag.paymentstatus {
+    text-transform: uppercase;
+}
+
+#listing-metabox-generalinfo .tag.paymentstatus.paid {
+    background: green;
+}
+
+
+/* Form fields list table */
+table.wp-list-table td .tag {
+    background: #444;
+    border-radius: 2px;
+    padding: 2px 5px;
+    color: #fff;
+    font-size: 90%;
+    margin-right: 2px;
+}
+
+table.wp-list-table.formfields th.column-label {
+    width: 40%;
+}
+
+table.wp-list-table.formfields th.column-tags {
+    width: 180px;
+}
+
+table.wp-list-table.formfields th.column-order {
+    width: 40px;
+}
+
+table.wp-list-table.formfields .tag.required {
+    background: orange;
+}
+
+table.wp-list-table.formfields .tag.in-excerpt {
+    background: green;
+}
+
+table.wp-list-table.formfields .tag.in-listing {
+    background: green;
+}
+
+#wpbdp-listing-fields input[type="text"] {
+    width: 70%;
+}
+
+#wpbdp-listing-fields .wpbdp-form-field.url .wpbdp-form-field-html {
+    padding-left: 10px;
+}
+
+#wpbdp-listing-fields .wpbdp-form-field.url input[type="text"] {
+    display: block;
+}
+
+#wpbdp-listing-fields div.listing-images .image {
+    padding: 5px;
+    /*border-right: 1px solid #ddd;*/
+    width: 150px;
+    vertical-align: top;
+    /*float: left;*/
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    min-height: 210px;
+    _height: 210px;
+}
+
+#wpbdp-listing-fields div.listing-images .image img {
+    max-width: 150px;
+}
+
+
+/* FIXME: some front-end styles */
+ul#wpbusdirmanerrors { margin-left:20px; }
+
+/* CSV import */
+.wpbdp-csv-import-example {
+    width: 100%;
+    padding: 10px;   
+    display: block;
+    background: #fff;
+    border: solid 1px #ddd;
+    font-size: 90%;
+    font-family: monospace;
+    height: 100%;
+    white-space: nowrap;
+}
+
+table.wpbdp-csv-import-results, table.wpbdp-csv-import-warnings {
+    width: 100%;
+}
+
+table.wpbdp-csv-import-results .line-no, table.wpbdp-csv-import-warnings .line-no {
+    width: 50px;
+}
+
+table.wpbdp-csv-import-results td.line, table.wpbdp-csv-import-warnings td.line {
+    font-family: monospace;
+    font-size: 90%;
+}
+
+table.wpbdp-csv-import-results .error, table.wpbdp-csv-import-warnings .error {
+    width: 200px;
+}
+
+table.wpbdp-csv-import-headers {
+    width: 100%;
+}
+
+table.wpbdp-csv-import-headers td.field-is-required, table.wpbdp-csv-import-headers td.field-is-multivalued {
+    text-align: center;
+}
+
+table.wpbdp-csv-import-headers tbody tr {
+    background: #f9f9f9;
+}
+
+table.wpbdp-csv-import-headers tbody tr.alt {
+    background: inherit;
+}
+
+.wpbdp-form-field.image .preview {
+    float: none;
+}

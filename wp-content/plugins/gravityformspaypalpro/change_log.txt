@@ -1,0 +1,34 @@
+-----------------------------------------------------------
+Version 1.0
+    - Updated AJAX URL to resolve conflict when site is running under SSL
+    - Commented out code that was globally deactivating post creation
+    - Updated transaction response variable so that it is public, making it available during notifications and confirmations
+    - Updated AJAX URL to resolve conflict when site is running under SSL
+    - Added product description to single payment
+    - Fixed issue when processing single-payment IPNs
+    - Updated GFPayPalPro::$transaction_response to include config ID to guarantee correct config ID is used when saving to entry meta
+    - Fixed issue with initial amount value not being included correctly
+    - Added support for feed by feed API credentials
+    - Added support for Manage WP
+    - Added logging
+	- Fixed notice when referencing $product["options"]
+	- Added gform_paypalpro_query hook so the querystring sent to PayPal can be modified
+
+------------------------------------------------------------
+Version 1.0.beta4
+    - Fixed issue where calculated products were not being sent to PayPal correctly
+    - Fixed issue where entry wasn't marked as Approved when payment was $0.00
+    - Fixed issue with setup fee and trial field drop down being empty when creating a new feed
+
+------------------------------------------------------------
+Version 1.0.beta3
+    - Fixed warning message when creating initial transaction because of invalid number of arguments
+
+------------------------------------------------------------
+Version 1.0.beta2
+    - Fixed issue with credit card field incorrectly failing validation on multi-page forms
+    - Fixed issue with products hidden by conditional logic being sent to PayPal
+    - Fixed issue with extra (blank) item being added to PayPal details
+    - Fixed issue with refund transactions not being processed by the IPN
+
+

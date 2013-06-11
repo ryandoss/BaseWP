@@ -1,0 +1,143 @@
+/* form settings */
+#gquiz-grading-letter-container,
+#gquiz-settings-grades-container,
+#gquiz-grading-pass-fail-container {
+    cursor:default;
+    overflow:auto;
+    padding:5px;
+    width:310px;
+}
+
+#gquiz-form-setting-pass-grade-value {
+    position:relative;
+    display:inline-block;
+    margin-bottom:15px;
+}
+
+#gquiz-form-setting-pass-grade-value span {
+    position:absolute;
+    top:4px;
+    right:4px;
+    line-height:100%;
+    vertical-align:middle;
+}
+
+#gquiz-pass-mark {
+    width:45px !important;
+    text-align:right;
+    padding-right:16px;
+}
+
+
+#gquiz-grading-letter-container,
+#gquiz-grading-pass-fail-container {
+    width:410px;
+}
+
+#gquiz-settings-grades-container label {
+    display:block;
+    line-height:125%;
+    margin:0 0 3px;
+}
+
+#gquiz-settings-grades-container {
+    border:1px solid #DFDFDF;
+    overflow:auto;
+    padding:5px;
+    width:290px;
+    cursor:default;
+}
+
+.gquiz-grade-handle {
+    border-right:1px solid #CCCCCC;
+    cursor:move;
+    vertical-align:middle;
+}
+
+#gquiz-grades li {
+    margin:0 !important;
+    padding:0 10px !important;
+}
+
+.gquiz-grade-value {
+    width:30px;
+    text-align:center;
+}
+
+.gquiz-grades-header-label {
+    cursor:default;
+    display:inline !important;
+    padding-left:30px;
+}
+
+.gquiz-grades-header-value {
+    display:inline !important;
+    padding-left:110px;
+}
+
+#gquiz-grading-options {
+    margin:8px 0;
+
+}
+
+/* field settings */
+.gquiz-field div.duplicate_setting,
+.gquiz-field input#field-choice-values-enabled,
+.gquiz-field input#field-choice-values-enabled + label {
+    display:none !important;
+}
+
+#gquiz_gfield_settings_choices_container li input.field-choice-price,
+#gquiz_gfield_settings_choices_container li input.field-choice-value {
+    display:none !important;
+}
+
+#gquiz_gfield_settings_choices_container li input.field-choice-text {
+    width:300px !important;
+}
+
+#gquiz-field-choices li {
+    margin:0 !important;
+    padding:0 10px !important;
+}
+
+.gquiz-field .choices_setting,
+.gquiz-field .other_choice_setting,
+.gquiz-field li.label_setting {
+    display:none !important;
+}
+
+.gquiz-field .gfield_choice_checkbox,
+.gquiz-field .gfield_choice_radio {
+    display:none !important;
+}
+
+.gquiz-button-correct-choice {
+    margin-left:3px;
+    cursor:pointer;
+}
+
+.gquiz-float-label {
+    float:left;
+    padding:2px 5px 0 0;
+}
+
+
+
+#gquiz_gfield_settings_choices_container {
+    margin:8px 0 14px;
+    max-height:230px;
+    border:1px solid #DFDFDF;
+    overflow:auto;
+    padding:2px 0 6px;
+}
+
+.gquiz-choices-help {
+    background-image:url("../images/exclamation.png");
+    background-position:0 10px;
+    background-repeat:no-repeat;
+    padding:10px 0 0px 20px;
+    margin-left:10px;
+    font-size:0.8em;
+}
+

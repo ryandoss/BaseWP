@@ -1,0 +1,380 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-01 11:00-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\plugin-upgrade.php:53
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:189
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\plugin-upgrade.php:72
+#, php-format
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:148
+msgid "Twilio Options"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:153
+msgid "Send SMS only when a payment is received."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:182
+msgid "Gravity Forms "
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:189
+msgid "There is a new version of Gravity Forms Twilio Add-On available."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:190
+#, php-format
+msgid ""
+"%sRegister%s your copy of Gravity Forms to receive access to automatic "
+"upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:241
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:596
+msgid "Gravity Form"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:241
+msgid "Select the Gravity Form you would like to integrate with Twilio."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:242
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:656
+msgid "Message"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:242
+msgid ""
+"Write the message you would like to be sent. You can insert fields submitted "
+"by the user by selecting them from the 'Insert merge code' drop down. SMS "
+"message are limited to 160 characters. Messages larger than 160 characters "
+"will automatically be split into multiple SMS messages."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:243
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:440
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:450
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:615
+msgid "From Number"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:243
+msgid "Phone number that the message will be sent FROM."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:244
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:441
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:451
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:631
+msgid "To Number"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:244
+msgid ""
+"Phone number to send this message to. For Twilio trial accounts, you can "
+"only send SMS messages to validated numbers. To validate a number, login to "
+"your Twilio account and navigate to the 'Numbers' tab."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:245
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:670
+msgid "Shorten URLs"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:245
+msgid ""
+"Enable this option to automatically shorten all URLs in your SMS message."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:257
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:548
+msgid "Twilio"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:288
+msgid "Valid Twilio credentials"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:288
+msgid "Invalid Twilio credentials"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:293
+msgid "Valid Bitly credentials"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:293
+msgid "Invalid Bitly credentials"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:300
+msgid "Twilio Account Information"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:302
+msgid ""
+"Twilio provides a web-service API for businesses to build scalable and "
+"reliable communication apps."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:302
+msgid "Sign up for a Twilio account"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:306
+msgid "Account SID"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:315
+msgid "Auth Token"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:325
+msgid "Bitly Account Information"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:327
+#, php-format
+msgid ""
+"Bitly helps you shorten, track and analize your links. Enter your Bitly "
+"account information below to automatically shorten URLs in your SMS message. "
+"If you don't have a Bitly account, %ssign-up for one here%s"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:331
+msgid "Login"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:340
+msgid "API Key"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:350
+msgid "Save Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:360
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:362
+msgid "Uninstall Twilio Add-On"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:361
+msgid "Warning! This operation deletes ALL Twilio Feeds."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:362
+msgid ""
+"Warning! ALL Twilio Feeds will be deleted. This cannot be undone. \\'OK\\' "
+"to delete, \\'Cancel\\' to stop"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:390
+msgid "Feed deleted."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:401
+msgid "Feeds deleted."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:409
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:410
+msgid "Twilio Feeds"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:413
+msgid "Add New"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:426
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:428
+msgid "Bulk action"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:429
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:474
+msgid "Delete"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:431
+msgid "Apply"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:431
+msgid "Delete selected feeds? \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:439
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:449
+msgid "Form"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:464
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:522
+msgid "Active"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:464
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:518
+msgid "Inactive"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:466
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:469
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:474
+msgid "Delete this feed? "
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:474
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:549
+msgid "Twilio Feed"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:568
+#, php-format
+msgid "Feed Updated. %sback to list%s"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:577
+msgid ""
+"Ooops. There was a problem contacting Twilio. Please try again in a few "
+"minutes."
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:582
+#, php-format
+msgid ""
+"You must add incoming numbers to your %sTwilio%s account in order to send "
+"SMS messages"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:587
+#, php-format
+msgid ""
+"You must add outgoing caller IDs to your %sTwilio%s account in order to send "
+"SMS messages. To add an outgoing caller ID, login to your %sTwilio%s account "
+"and navigate to the 'Numbers' tab"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:598
+msgid "Select a form"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:677
+msgid "Save Feed"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:677
+msgid "Update Feed"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:773
+msgid "Insert merge code"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:826
+msgid "Required form fields"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:836
+msgid "Optional form fields"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:844
+msgid "Pricing form fields"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:852
+msgid "Other"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:853
+msgid "Client IP Address"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:854
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:855
+msgid "Date"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:856
+msgid "Embed Post/Page Id"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:857
+msgid "Embed Post/Page Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:858
+msgid "Embed URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:859
+msgid "Entry Id"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:860
+msgid "Entry URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:861
+msgid "Form Id"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:862
+msgid "Form Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:863
+msgid "HTTP User Agent"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:866
+msgid "Post Id"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:867
+msgid "Post Edit URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:870
+msgid "User Display Name"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:871
+msgid "User Email"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:872
+msgid "User Login"
+msgstr ""
+
+#: C:\xampp\htdocs\wp3\wp-content\plugins\gravityformstwilio\twilio.php:946
+msgid "You don't have adequate permission to uninstall Twilio Add-On."
+msgstr ""

@@ -1,0 +1,66 @@
+-----------------------------------------------------------------------------
+Version 1.3
+    - Added support for Manage WP
+    - Fixed issue with cancel subscription button not showing up correctly
+    - Added support for setup fee
+    - Added support for changing API on a feed by feed basis
+    - Added some hooks and filters
+    - Fixed notice messages
+    - Fixed typo on settings page
+
+-----------------------------------------------------------------------------
+Version 1.2.1
+    - Fixed issue with invoice number exceeding max character limit
+
+-----------------------------------------------------------------------------
+Version 1.2
+    - Added support for negative product prices (i.e. discounts)
+    - Added random invoice number to prevent duplicate subscription problem
+
+-----------------------------------------------------------------------------
+Version 1.1.1
+    - Fixed issue with failed transactions due to the length of product names and product descriptions.
+
+-----------------------------------------------------------------------------
+Version 1.1
+    - Fixed issue with calculation fields not being included in payment info sent to Authorize.net
+    - Added payment_gateway meta information
+    - Added new conditional logic options (greater than, less than, contains starts with, ends with) and support for other conditional fields
+    - Fixed notices
+    - Fixed setting the payment gateway
+    - Updated logging to use the GF Logging plugin
+    - Fixed issue with ARB not sending appropriate address information
+
+-----------------------------------------------------------------------------
+Version 1.0
+    - Updated line item logic so that it truncates line item names to 31 characters and descriptions to 255 characters
+    - Updated verbiage and added tooltips to settings page
+
+-----------------------------------------------------------------------------
+Version 1.0.beta2
+    - Fixed issue with expiration date being sent with an invalid format
+    - Fixed issue where product & option fields hidden via conditional logic were being applied to order total
+    - Fixed issue where product options were not being added to line item product price
+
+-----------------------------------------------------------------------------
+Version 1.0.beta1.1
+    - Fixed issue with trial amount not accepting currency symbols
+
+-----------------------------------------------------------------------------
+Version 1.0.beta1
+    - Added logging functionality to Authorize.net transactions
+    - Fixed issue with hidden product field
+    - Fixed issue with line items not being sent property to Authorize.net
+    - Updated request to Authorize.net so that validate peer is disabled (to help with failed connections)
+    - Updated single product field so that it's quantity is defaulted to 1 when the quantity field is disabled
+
+-----------------------------------------------------------------------------
+Version 1.0.alpha2
+    - Fixed validation issue on multi-page forms.
+    - Added support for multiple feeds to be configured using the same form and executed based on condition.
+    - Fixed issue with validation when credit card field was hidden by conditional logic
+
+-----------------------------------------------------------------------------
+Version 1.0.alpha1
+    - Added ability to specify mode (Production or Test) on settings page
+

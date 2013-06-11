@@ -1,0 +1,36 @@
+---------------------------------------------------------------------------------
+Version 1.4
+	- Added PayPal integration to subscribe user to AWeber only when payment is received
+	- Updated the AJAX Url to resolve conflicts with sites running over HTTPS
+    - Fixed issue where spaces after closing php tag caused problems with WP 3.5 release
+
+---------------------------------------------------------------------------------
+Version 1.3
+	- Added logging support
+    - Added new conditional logic options (greater than, less than, contains starts with, ends with) and support for other conditional fields
+    - Fixed notices
+    - Fixed issue with API throwing errors on some PHP installations
+
+---------------------------------------------------------------------------------
+Version 1.2
+    - Fixed issue with Full Name field not being sent to AWeber when mapped to custom fields
+
+---------------------------------------------------------------------------------
+Version 1.1
+    - Updated PHP API and using it to subscribe users instead of relying on email
+    - Added support for field mapping
+    - Added hook to allow custom Ad Tracking text to be assigned to the subscriber
+
+        add_filter("gform_aweber_ad_tracking", "aweber_ad_tracking", 10, 4); //site wide ad tracking
+        OR
+        add_filter("gform_aweber_ad_tracking_20", "aweber_ad_tracking", 10, 4); //form specific ad tracking
+
+        function aweber_ad_tracking($ad_tracking, $entry, $form, $feed){
+            return "Custom Ad Tracking";
+        }
+
+
+
+====================================================================================================================================
+IMPORTANT NOTE: $_collectionMap property in api/aweber.php line 82 has been made public to resolve errors on some PHP installations. When updating API, make sure to re-apply change
+====================================================================================================================================

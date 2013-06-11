@@ -1,0 +1,11 @@
+------------------------------------------------------------
+Version 1.2
+    - Fixed an issue with the tabindex in the widget
+    - Changed the way the repeating voting mechanism works to play better with caching plugins. Results are now displayed via ajax if the cookie option is set and the visitor has already voted.
+    - Fixed an issue with multiple instances of the same form on the page
+    - Fixed an issue displaying checkbox values en entry detail and export
+	- Fixed an issue in the email notification where Disable Auto-formatting is not selected
+------------------------------------------------------------
+Version 1.1
+	- Fixed an issue where results were being displayed when the cookie is set and display_results=false
+	- Fixed an issue during the export process

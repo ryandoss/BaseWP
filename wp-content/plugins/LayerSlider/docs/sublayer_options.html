@@ -1,0 +1,149 @@
+<h3>Naming sublayers</h3>
+<ul>
+	<li>
+		To add a name to a sublayer just simply click on its default name and type the new name.
+	</li>
+<ul>
+
+<h3>Ordering sublayers</h3>
+<ul>
+	<li>
+		You can grab any sublayer and drag it to up or down in the sublayers list. The last sublayer in the list will be above all the others inside the layer.
+	</li>
+<ul>
+
+<h3>Basic tab</h3>
+<ul>
+	<li>
+		<strong>Type</strong>
+		Here you can select the type of your sublayer. It can be an image or
+		any other HTML element.
+	</li>
+	<li>
+		<strong>HTLM content</strong>
+		If you are using other than images, you can use custom HTML codes
+		to fill the sublayer contents.
+	</li>
+	<li>
+		<strong>Inserting videos to LayerSlider</strong>
+		Just simply create a DIV sublayer and paste the embed code of the video into the HTML content field. If you embed videos from YouTube or from Vimeo, LayerSlider supports autoplay videos and autopause slideshow features.
+	</li>
+<ul>
+
+<h3>Options tab</h3>
+<ul>
+	<li>
+		<strong>Direction</strong>
+		The sublayer will slide in or out from / to this direction.
+		Possible values are: top, right, bottom, left, auto and fade.
+		Auto means that the sublayer will follow the direction of the layer itself.<br>
+		<strong>To fade in a sublayer without sliding:</strong><br>
+		Set the Direction of the Slide in animation property of the sublayer to fade and
+		add a Delay time to the sublayer with the same value as the Duration (in) time of the layer in the Layer Options.<br>
+		<strong>To fade out a sublayer without sliding:</strong><br>
+		Set the Direction of the Slide out animation property of the sublayer to fade and
+		add a Delay (out) time to the layer in the Layer Options with the same value as the Duration (out) time of this sublayer.<br>
+		<strong>Sliding a sublayer from / to another direction than the layer:</strong><br>
+		You have to follow the two steps above but select the required direction instead of fade.
+	</li>
+	<li>
+		<strong>Duration</strong>
+		The duration of the animation when the sublayer slides or fades in or out.
+		You can set here how long the animation should last.
+		This value is in millisecs, so the value 1000 means 1 second.
+		Higher values results longer animations.
+	<li>
+		<strong>Easing</strong>
+		The type of the animation. You can find the possible values
+		and see them in action on <a href="http://api.jqueryui.com/easings/" target="_blank">this page</a>.
+	</li>
+	<li>
+		<strong>Delay</strong>
+		Delay time before the animation starts when the sublayer
+		slides in or out. This value is in millisecs, so the value
+		1000 means 1 second. Higher values results more delayed animations.
+	</li>
+	<li>
+		<strong>P. level</strong>
+		The P.Level property is one of the most important setting of the parallax effect.
+		Sublayers with all the same properties BUT different P.Level will
+		animate different speed. For example a sublayer with P.Level 4 will
+		animate faster than other sublayer with P.Level 2 and the different
+		settings of P.Levels will generate the parallax effect.
+	</li>
+	<li>
+		<strong>Show until</strong>
+		The sublayer will be visible for the time you specify here,
+		then it will slides out. You can use this property for sublayers
+		to leave the layer before the layer itself will animates out,
+		or for example before other sublayers will slide in.
+	</li>
+	<li>
+		<strong>Hidden</strong>
+		The sublayer won't be visible in the slide if you enable
+		this option.
+	</li>
+</ul>
+
+<h3>Link tab</h3>
+<ul>
+	<li>
+		<strong>URL</strong>
+		If you fill this field with an URL, the sublayer will be linked.<br><br>
+
+		<strong>Linking a sublayer to an other layer</strong>
+		If you want to create a special link which will point to an other layer
+		in your LayerSlider, you just have to insert this field a hash or number sign (#)
+		followed the desired layer number.<br><br>
+
+		Example: "#3" - Clicking on this sublayer will cause LayerSlider to switch to the third
+		layer.
+	</li>
+	<li>
+		<strong>target</strong>
+		Here you can set the target of the link. _self means that the link will
+		open in the same window / tab of the browser. _blank means that the browser will
+		create a new tab or window for the linked page.
+	</li>
+</ul>
+
+<h3>Style tab</h3>
+<ul>
+	<li>
+		<strong>Top</strong>
+		The sublayer vertical position relative to the slide top left corner.
+		You can use px or percentage values. Note that percentage positioning works differently in LayerSlider, the plugin will position the sublayer into the center point to the specified position, so for example 50% means that the middle of the sublayer will be exactly in the middle of the layer.
+	</li>
+	<li>
+		<strong>Left</strong>
+		The sublayer horizontal position relative to the slide top left corner.
+		You can use px or percentage values. Note that percentage positioning works differently in LayerSlider, the plugin will position the sublayer into the center point to the specified position, so for example 50% means that the center of the sublayer will be exactly in the center of the layer.
+	</li>
+	<li>
+		<strong>Custom styles</strong>
+		You can apply any CSS property to your sublayer to change its look.<br>
+		<strong>Important</strong>
+		Do NOT use margins and relative positions because in LayerSlider all sublayers have to have absolute position and 0px of margins!
+	</li>
+</ul>
+
+<h3>Attributes tab</h3>
+<ul>
+	<li>
+		<strong>ID</strong>
+		HTML "id" attribute.
+	</li>
+	<li>
+		<strong>Classes</strong>
+		Apply any classes on your sublayer separated by a blank space.
+	</li>
+	<li>
+		<strong>Title</strong>
+		HTML title attribute.
+	</li>
+	<li>
+		<strong>Alt</strong>
+		You can set an alternate text representation for your images.
+		It is useful for SEO purposes.
+	</li>
+</ul>

@@ -1,0 +1,189 @@
+
+#megaMenu ul.megaMenu{
+	background:#383838 url(../images/black_top.png) bottom left repeat-x;
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#383838', endColorstr='#000000')";*/
+	background:-moz-linear-gradient(top, #383838, #000000);
+	background:-webkit-gradient(linear, left top, left bottom, from(#383838), to(#000000));
+	border:1px solid #545454;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+#megaMenu ul.megaMenu > li{
+	padding:3px 0px;
+}
+#megaMenu ul.megaMenu > li > a{
+	font-size:13px;
+	color:#eee;
+	text-shadow:0px 1px 1px #000000;
+	border-color:transparent #111 transparent #3b3b3b;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	font-weight:bold;
+}
+
+#megaMenu ul.megaMenu > li ul li.ss-nav-menu-item-depth-1{
+	/*border-color:transparent transparent transparent #000;
+	border-width:1px;
+	border-style:solid;*/
+}
+
+#megaMenu ul.megaMenu > li:first-child > a{
+	border-left-color:transparent;
+}
+#megaMenu ul.megaMenu > li:last-child > a{
+	border-right-color:transparent;
+}
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li > a:hover, #megaMenu ul.megaMenu > li.megaHover > a{
+	background:#fefefe;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9d9d9', endColorstr='#fefefe');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9d9d9', endColorstr='#fefefe')";
+	background:-moz-linear-gradient(top, #d9d9d9, #fefefe);
+	background:-webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#fefefe));
+	
+	color:#000;
+	text-shadow:0px 1px 1px #fff;
+}
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li.megaHover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	border-color:#222;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega:hover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub:hover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-mega.megaHover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub.megaHover > a{
+	border-bottom-color:#fefefe;
+}
+#megaMenu ul ul.sub-menu{
+	top:96%;
+}
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{
+}
+#megaMenu ul.megaMenu > li:hover > a,
+#megaMenu ul.megaMenu > li.megaHover a{
+	border-radius:3px 3px 0px 0px;
+	-moz-border-radius:3px 3px 0px 0px;
+	-webkit-border-radius:3px 3px 0px 0px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1{
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu{
+	border-radius:0px 0px 3px 3px;
+	-moz-border-radius:0px 0px 3px 3px;
+	-webkit-border-radius:0px 0px 3px 3px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu ul.sub-menu{
+	border-radius:0px 3px 0px 3px;
+	-moz-border-radius:0px 3px 0px 3px;
+	-webkit-border-radius:0px 3px 0px 3px;
+}
+#megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1, #megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	background:#efefef;
+	background:#e9e9e9 url(../images/silver_sub.png) top left repeat-x;
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#efefef')";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#efefef');*/
+	background:-moz-linear-gradient(top, #fefefe, #efefef);
+	background:-webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#efefef));
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a, #megaMenu ul ul.sub-menu li a{
+	color:#444;
+	font-size:12px;
+	text-shadow:0px 1px 1px #fff;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > a, 
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li:hover > a, 
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+.wpmega-widgetarea h2.widgettitle{
+	color:#222;
+	font-size:12px;
+	font-weight:bold;
+	text-shadow:0px 1px 1px #fff;
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a:hover, #megaMenu ul ul.sub-menu > li:hover > a{
+	color:#000;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li.ss-nav-menu-highlight > a, #megaMenu ul li.ss-nav-menu-reg ul.sub-menu li.ss-nav-menu-highlight > a{
+	color:#000;
+	text-shadow:0px 1px 1px #fff;
+	font-weight:bold;
+}
+.ss-nav-menu-with-img .wpmega-link-title, .ss-nav-menu-with-img .wpmega-link-description{
+	/*padding-left:20px;*/
+}
+.ss-nav-menu-with-img{
+	min-height:20px;
+}
+
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu > li > ul.sub-menu{
+	top:-1px;
+	border-left-color:#111;
+	border-radius:0px 2px 2px 0px;
+	-moz-border-radius:0px 2px 2px 0px;
+	-webkit-border-radius:0px 2px 2px 0px;
+}
+
+
+
+/****************** 
+ * VERTICAL
+ ******************/
+ 
+ 
+#megaMenu.megaMenuVertical ul.megaMenu {
+	background:#383838 url(../images/black_top_vert.png) top right repeat-y;
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#383838', endColorstr='#000000', gradientType='1')";*/
+	background:-moz-linear-gradient(left, #383838, #000000);
+	background:-webkit-gradient(linear, left top, right top, from(#383838), to(#000000));
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li > a{
+	
+	border-color:transparent;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li:hover > a, 
+#megaMenu.megaMenuVertical ul.megaMenu > li > a:hover, 
+#megaMenu.megaMenuVertical ul.megaMenu > li.megaHover > a{
+	background:#fefefe;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#fefefe', gradientType='1');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#fefefe', gradientType='1')";
+	background:-moz-linear-gradient(left, #efefef, #fefefe);
+	background:-webkit-gradient(linear, left top, right top, from(#efefef), to(#fefefe));
+	
+	border-right-color:#fefefe;
+	border-top-color:#000;
+	
+	border-radius:3px 0px 0px 3px;
+	-moz-border-radius:3px 0px 0px 3px;
+	-webkit-border-radius:3px 0px 0px 3px;
+}
+#megaMenu.megaMenuVertical li.ss-nav-menu-mega ul.sub-menu.sub-menu-1, 
+#megaMenu.megaMenuVertical li.ss-nav-menu-reg ul.sub-menu{
+	background:#fefefe; /*fff; /*df7;*/
+	
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#efefef', gradientType='1')";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#efefef', gradientType='1');*/
+	background:-moz-linear-gradient(left, #fefefe, #efefef); /*#, #ff8b00);*/
+	background:-webkit-gradient(linear, left top, right top, from(#fefefe), to(#efefef));
+}
+
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu > li > ul.sub-menu {
+	left:100% !important;
+	top:-5px;
+}
+
+/* IE7 Hacks */
+#megaMenu.megaMenuHorizontal ul.megaMenu{
+	*border-bottom:none;
+}
+#megaMenu.megaMenuVertical ul.megaMenu{
+	*border-right:none;
+}
+
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform div {
+	padding-top:9px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform input[type="submit"] {
+	background-image: url(../images/search_light.png);
+}

@@ -1,0 +1,123 @@
+
+#megaMenu{
+	padding-top:4px;
+}
+
+#megaMenu ul.megaMenu{
+	background-color:#fff;
+}
+
+#megaMenu ul.megaMenu > li > a{
+	font-size:13px;
+	color:#000000;
+	font-weight:bold;
+	line-height:17px;
+}
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li > a:hover, #megaMenu ul.megaMenu > li.megaHover > a{
+	background-color:#ffffff;
+	color:#aa0000;
+}
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li.megaHover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	border-color:#aaa; /*#ddd;
+	/*box-shadow:0px -1px 2px #dfdfdf;
+	-moz-box-shadow:0px -1px 2px #dfdfdf;
+	-webkit-box-shadow:0px -1px 2px #dfdfdf;*/
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega:hover > a, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub:hover > a, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega.megaHover > a, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub.megaHover > a{
+	border-bottom-color:#ffffff;
+}
+#megaMenu ul ul.sub-menu{
+	top:96%;
+}
+/*#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{
+}*/
+#megaMenu ul.megaMenu > li:hover > a{
+	border-radius:2px 2px 0px 0px;
+	-moz-border-radius:2px 2px 0px 0px;
+	-webkit-border-radius:2px 2px 0px 0px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1{
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu{
+	border-radius:0px 0px 2px 2px;
+	-moz-border-radius:0px 0px 2px 2px;
+	-webkit-border-radius:0px 0px 2px 2px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu ul.sub-menu{
+
+	border-radius:0px 2px 0px 2px;
+	-moz-border-radius:0px 2px 0px 2px;
+	-webkit-border-radius:0px 2px 0px 2px;
+}
+#megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1, #megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	background-color:#ffffff;
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a, #megaMenu ul ul.sub-menu li a{
+	color:#666666;
+	font-size:12px;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > a, 
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li:hover > a, 
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+.wpmega-widgetarea h2.widgettitle{
+	color:#222;
+	font-size:12px;
+	font-weight:bold;
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a:hover, #megaMenu ul ul.sub-menu > li:hover > a{
+	color:#aa0000;
+}
+.ss-nav-menu-with-img .wpmega-link-title, .ss-nav-menu-with-img .wpmega-link-description{
+	/*padding-left:20px;*/
+}
+.ss-nav-menu-with-img{
+	min-height:20px;
+}
+
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li.ss-nav-menu-highlight > a,
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu li.ss-nav-menu-highlight > a{
+	color:#aa0000;
+}
+
+
+
+#megaMenu a > span.wpmega-item-description{
+	color:#888;
+}
+
+
+#megaMenu.megaMenuVertical ul.megaMenu > li:hover > a, 
+#megaMenu.megaMenuVertical ul.megaMenu > li.megaHover > a, 
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, 
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{	
+	
+	box-shadow:-1px 0px 2px #dfdfdf;
+	-moz-box-shadow:-1px 0px 2px #dfdfdf;
+	-webkit-box-shadow:-1px 0px 2px #dfdfdf;
+}
+
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > a {
+	
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega:hover > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > a:hover,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-reg.megaReg-with-sub:hover > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-reg.megaReg-with-sub > a:hover,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub:hover > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub.megaHover > a{
+	border-right-color: #fff;
+	border-bottom-color:#ddd;	
+}
+
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform div {
+	padding-top:9px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform input[type="submit"] {
+	background-image: url(../images/search_light.png);
+}

@@ -1,0 +1,550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ElegantBuilder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-15 14:18+0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ElegantThemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _x;_e;__;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../et-layout-builder.php:110
+msgid "Image doesn't exist"
+msgstr ""
+
+#: ../et-layout-builder.php:255
+msgid "Layout Builder"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "Permanently delete this module?"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "Permanently delete all modules?"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "Permanently delete this layout?"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "Layout Name"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "Create"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "Cancel"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "* new layout will appear under the Sample Layout tab after page update"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "Yes"
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "No"
+msgstr ""
+
+#: ../et-layout-builder.php:794 ../et-layout-builder.php:1471
+msgid "Saving..."
+msgstr ""
+
+#: ../et-layout-builder.php:794
+msgid "Layout Saved."
+msgstr ""
+
+#: ../et-layout-builder.php:799
+msgid "Elegant Builder"
+msgstr ""
+
+#: ../et-layout-builder.php:804 ../et-layout-builder.php:1665
+#: ../et-layout-builder.php:1689
+msgid "Settings"
+msgstr ""
+
+#: ../et-layout-builder.php:893
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
+"\" title=\"%3$s\">View version %4$s details</a>."
+msgstr ""
+
+#: ../et-layout-builder.php:895
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
+"\" title=\"%3$s\">View version %4$s details</a>. <em>Automatic update is "
+"unavailable for this plugin.</em>"
+msgstr ""
+
+#: ../et-layout-builder.php:897
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox"
+"\" title=\"%3$s\">View version %4$s details</a> or <a href=\"%5$s\">update "
+"automatically</a>."
+msgstr ""
+
+#: ../et-layout-builder.php:911
+msgid "The Page Builder meta box is displayed for the following post types"
+msgstr ""
+
+#: ../et-layout-builder.php:918
+msgid "Elegant Builder Plugin Options"
+msgstr ""
+
+#: ../et-layout-builder.php:971 ../et-layout-builder.php:1333
+msgid "Layout Builder Widget Area 1"
+msgstr ""
+
+#: ../et-layout-builder.php:971
+msgid "Layout Builder Widget Area 2"
+msgstr ""
+
+#: ../et-layout-builder.php:971
+msgid "Layout Builder Widget Area 3"
+msgstr ""
+
+#: ../et-layout-builder.php:971
+msgid "Layout Builder Widget Area 4"
+msgstr ""
+
+#: ../et-layout-builder.php:971
+msgid "Layout Builder Widget Area 5"
+msgstr ""
+
+#: ../et-layout-builder.php:974
+msgid "Logo"
+msgstr ""
+
+#: ../et-layout-builder.php:977
+msgid "Logo Image URL"
+msgstr ""
+
+#: ../et-layout-builder.php:982
+msgid "Select the logo placement"
+msgstr ""
+
+#: ../et-layout-builder.php:984 ../et-layout-builder.php:1152
+#: ../et-layout-builder.php:1153
+msgid "left"
+msgstr ""
+
+#: ../et-layout-builder.php:984 ../et-layout-builder.php:985
+#: ../et-layout-builder.php:1152
+msgid "center"
+msgstr ""
+
+#: ../et-layout-builder.php:984 ../et-layout-builder.php:1152
+msgid "right"
+msgstr ""
+
+#: ../et-layout-builder.php:988 ../et-layout-builder.php:1003
+#: ../et-layout-builder.php:1022 ../et-layout-builder.php:1053
+#: ../et-layout-builder.php:1068 ../et-layout-builder.php:1110
+#: ../et-layout-builder.php:1156 ../et-layout-builder.php:1166
+#: ../et-layout-builder.php:1188 ../et-layout-builder.php:1213
+#: ../et-layout-builder.php:1223 ../et-layout-builder.php:1236
+#: ../et-layout-builder.php:1280 ../et-layout-builder.php:1305
+#: ../et-layout-builder.php:1320 ../et-layout-builder.php:1336
+#: ../et-layout-builder.php:1363
+msgid "Additional css class"
+msgstr ""
+
+#: ../et-layout-builder.php:995
+msgid "Paper"
+msgstr ""
+
+#: ../et-layout-builder.php:998
+msgid "Add a paper text"
+msgstr ""
+
+#: ../et-layout-builder.php:1010
+msgid "Video"
+msgstr ""
+
+#: ../et-layout-builder.php:1013
+msgid "Video URL"
+msgstr ""
+
+#: ../et-layout-builder.php:1017
+msgid "Add module text"
+msgstr ""
+
+#: ../et-layout-builder.php:1029
+msgid "Testimonial"
+msgstr ""
+
+#: ../et-layout-builder.php:1032 ../et-layout-builder.php:1346
+msgid "Image URL"
+msgstr ""
+
+#: ../et-layout-builder.php:1036
+msgid "Author Name"
+msgstr ""
+
+#: ../et-layout-builder.php:1040
+msgid "Company's Position"
+msgstr ""
+
+#: ../et-layout-builder.php:1044
+msgid "Author Site URL"
+msgstr ""
+
+#: ../et-layout-builder.php:1048
+msgid "Testimonial text"
+msgstr ""
+
+#: ../et-layout-builder.php:1060
+msgid "Slogan"
+msgstr ""
+
+#: ../et-layout-builder.php:1063
+msgid "Slogan text"
+msgstr ""
+
+#: ../et-layout-builder.php:1075
+msgid "Image Slider"
+msgstr ""
+
+#: ../et-layout-builder.php:1078 ../et-layout-builder.php:1350
+msgid "Image Size (e.g. 300x200)"
+msgstr ""
+
+#: ../et-layout-builder.php:1082
+msgid "Animation Effect"
+msgstr ""
+
+#: ../et-layout-builder.php:1084 ../et-layout-builder.php:1085
+msgid "fade"
+msgstr ""
+
+#: ../et-layout-builder.php:1084
+msgid "slide"
+msgstr ""
+
+#: ../et-layout-builder.php:1088
+msgid "Animation Duration (in ms)"
+msgstr ""
+
+#: ../et-layout-builder.php:1093
+msgid "Auto Animation"
+msgstr ""
+
+#: ../et-layout-builder.php:1095 ../et-layout-builder.php:1096
+#: ../et-layout-builder.php:1106 ../et-layout-builder.php:1107
+#: ../et-layout-builder.php:1141 ../et-layout-builder.php:1142
+msgid "off"
+msgstr ""
+
+#: ../et-layout-builder.php:1095 ../et-layout-builder.php:1106
+#: ../et-layout-builder.php:1141
+msgid "on"
+msgstr ""
+
+#: ../et-layout-builder.php:1099
+msgid "Auto Animation Speed (in ms)"
+msgstr ""
+
+#: ../et-layout-builder.php:1104
+msgid "Pause Slider On Hover"
+msgstr ""
+
+#: ../et-layout-builder.php:1120
+msgid "Button"
+msgstr ""
+
+#: ../et-layout-builder.php:1123
+msgid "Color"
+msgstr ""
+
+#: ../et-layout-builder.php:1125 ../et-layout-builder.php:1126
+#: ../et-layout-builder.php:1276 ../et-layout-builder.php:1277
+#: ../et-layout-builder.php:1296 ../et-layout-builder.php:1297
+msgid "blue"
+msgstr ""
+
+#: ../et-layout-builder.php:1125 ../et-layout-builder.php:1276
+#: ../et-layout-builder.php:1296
+msgid "green"
+msgstr ""
+
+#: ../et-layout-builder.php:1125 ../et-layout-builder.php:1276
+#: ../et-layout-builder.php:1296
+msgid "red"
+msgstr ""
+
+#: ../et-layout-builder.php:1125 ../et-layout-builder.php:1276
+msgid "purple"
+msgstr ""
+
+#: ../et-layout-builder.php:1125 ../et-layout-builder.php:1276
+msgid "yellow"
+msgstr ""
+
+#: ../et-layout-builder.php:1125 ../et-layout-builder.php:1276
+msgid "black"
+msgstr ""
+
+#: ../et-layout-builder.php:1129
+msgid "Size"
+msgstr ""
+
+#: ../et-layout-builder.php:1131 ../et-layout-builder.php:1132
+msgid "small"
+msgstr ""
+
+#: ../et-layout-builder.php:1131
+msgid "medium"
+msgstr ""
+
+#: ../et-layout-builder.php:1131
+msgid "large"
+msgstr ""
+
+#: ../et-layout-builder.php:1135
+msgid "URL"
+msgstr ""
+
+#: ../et-layout-builder.php:1139
+msgid "Open link in the new window?"
+msgstr ""
+
+#: ../et-layout-builder.php:1145
+msgid "Text"
+msgstr ""
+
+#: ../et-layout-builder.php:1150
+msgid "Button alignment"
+msgstr ""
+
+#: ../et-layout-builder.php:1163
+msgid "Horizontal Bar"
+msgstr ""
+
+#: ../et-layout-builder.php:1174
+msgid "List"
+msgstr ""
+
+#: ../et-layout-builder.php:1177
+msgid "Type"
+msgstr ""
+
+#: ../et-layout-builder.php:1179
+msgid "arrow"
+msgstr ""
+
+#: ../et-layout-builder.php:1179 ../et-layout-builder.php:1180
+msgid "checkmark"
+msgstr ""
+
+#: ../et-layout-builder.php:1183 ../et-layout-builder.php:1202
+#: ../et-layout-builder.php:1253 ../et-layout-builder.php:1300
+#: ../et-layout-builder.php:1315
+msgid "Content"
+msgstr ""
+
+#: ../et-layout-builder.php:1195
+msgid "Toggle"
+msgstr ""
+
+#: ../et-layout-builder.php:1198 ../et-layout-builder.php:1249
+#: ../et-layout-builder.php:1290
+msgid "Title"
+msgstr ""
+
+#: ../et-layout-builder.php:1207
+msgid "Default State"
+msgstr ""
+
+#: ../et-layout-builder.php:1209 ../et-layout-builder.php:1210
+msgid "close"
+msgstr ""
+
+#: ../et-layout-builder.php:1209
+msgid "open"
+msgstr ""
+
+#: ../et-layout-builder.php:1220
+msgid "Tabs"
+msgstr ""
+
+#: ../et-layout-builder.php:1233
+msgid "Simple Slider"
+msgstr ""
+
+#: ../et-layout-builder.php:1246
+msgid "Pricing Table"
+msgstr ""
+
+#: ../et-layout-builder.php:1258
+msgid "Price"
+msgstr ""
+
+#: ../et-layout-builder.php:1262
+msgid "Old Price"
+msgstr ""
+
+#: ../et-layout-builder.php:1266
+msgid "Button Text"
+msgstr ""
+
+#: ../et-layout-builder.php:1270
+msgid "Button URL"
+msgstr ""
+
+#: ../et-layout-builder.php:1274 ../et-layout-builder.php:1294
+msgid "Button Color"
+msgstr ""
+
+#: ../et-layout-builder.php:1287
+msgid "Box"
+msgstr ""
+
+#: ../et-layout-builder.php:1312
+msgid "Text Block"
+msgstr ""
+
+#: ../et-layout-builder.php:1327 ../et-layout-builder.php:1330
+msgid "Widget Area"
+msgstr ""
+
+#: ../et-layout-builder.php:1343
+msgid "Image"
+msgstr ""
+
+#: ../et-layout-builder.php:1354
+msgid "Image Title"
+msgstr ""
+
+#: ../et-layout-builder.php:1358
+msgid "Caption"
+msgstr ""
+
+#: ../et-layout-builder.php:1371
+msgid "1/2 Column"
+msgstr ""
+
+#: ../et-layout-builder.php:1372
+msgid "1/3 Column"
+msgstr ""
+
+#: ../et-layout-builder.php:1373
+msgid "1/4 Column"
+msgstr ""
+
+#: ../et-layout-builder.php:1374
+msgid "2/3 Column"
+msgstr ""
+
+#: ../et-layout-builder.php:1375
+msgid "3/4 Column"
+msgstr ""
+
+#: ../et-layout-builder.php:1376
+msgid "Resizable Column"
+msgstr ""
+
+#: ../et-layout-builder.php:1416
+msgid "Add a Module"
+msgstr ""
+
+#: ../et-layout-builder.php:1417
+msgid "Add a Column"
+msgstr ""
+
+#: ../et-layout-builder.php:1418 ../includes/et_lb_sample_layouts.php:4
+msgid "Sample Layout"
+msgstr ""
+
+#: ../et-layout-builder.php:1419
+msgid "Page Builder"
+msgstr ""
+
+#: ../et-layout-builder.php:1458
+msgid "Drag a Module Onto Your Canvas"
+msgstr ""
+
+#: ../et-layout-builder.php:1478
+msgid "Clear All"
+msgstr ""
+
+#: ../et-layout-builder.php:1481
+msgid "Create Sample Layout"
+msgstr ""
+
+#: ../et-layout-builder.php:1484
+msgid "Save Changes"
+msgstr ""
+
+#: ../et-layout-builder.php:1605
+msgid "Description"
+msgstr ""
+
+#: ../et-layout-builder.php:1606
+msgid "Link"
+msgstr ""
+
+#: ../et-layout-builder.php:1608
+msgid "Delete this slide"
+msgstr ""
+
+#: ../et-layout-builder.php:1609
+msgid "Change image"
+msgstr ""
+
+#: ../et-layout-builder.php:1636
+msgid "Tab Title"
+msgstr ""
+
+#: ../et-layout-builder.php:1638 ../et-layout-builder.php:1653
+msgid "Delete this tab"
+msgstr ""
+
+#: ../et-layout-builder.php:1667
+msgid "This is the first column in the row"
+msgstr ""
+
+#: ../et-layout-builder.php:1669
+msgid "Column width (%)"
+msgstr ""
+
+#: ../et-layout-builder.php:1710
+msgid "Select"
+msgstr ""
+
+#: ../et-layout-builder.php:1721
+msgid "Upload"
+msgstr ""
+
+#: ../et-layout-builder.php:1724
+msgid "Add Slider Image"
+msgstr ""
+
+#: ../et-layout-builder.php:1727
+msgid "Add Tab"
+msgstr ""
+
+#: ../et-layout-builder.php:1730
+msgid "Add Slide"
+msgstr ""
+
+#: ../et-layout-builder.php:1791
+msgid "Disable page builder"
+msgstr ""

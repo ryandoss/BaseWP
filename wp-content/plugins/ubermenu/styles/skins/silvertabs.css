@@ -1,0 +1,221 @@
+/**********************************************************************
+ * UberMenu Skin: Silver Tabs
+ *
+ * UberMenu - WordPress Mega Menu Plugin http://wpmegamenu.com
+ * Copyright: Chris Mavricos, SevenSpark http://sevenspark.com
+ **********************************************************************/
+#megaMenu{
+	background-color:transparent;
+}
+#megaMenu ul.megaMenu > li > a,
+#megaMenu ul.megaMenu > li > span.um-anchoremulator{
+	
+	color:#444;
+		
+	border-radius:2px 2px 0px 0px;
+	-moz-border-radius:2px 2px 0px 0px;
+	-webkit-border-radius:2px 2px 0px 0px;
+	
+	font-weight:bold;	
+	
+	background-color: #F1F1F1;
+	background: #F1F1F1 url(../images/silver_bkg.png) top left repeat-x;
+	background-image: -ms-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -moz-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -o-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#ececec));
+	background-image: -webkit-linear-gradient(top,#f9f9f9,#ececec);
+	background-image: linear-gradient(top,#f9f9f9,#ececec);
+	
+	-webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9), inset 1px 0px 0px 0px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9), inset 1px 0px 0px 0px rgba(255, 255, 255, 0.5);
+	box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9), inset 1px 0px 0px 0px rgba(255, 255, 255, 0.5);
+	
+	border: 1px solid #DFDFDF;
+	border-color: #DFDFDF #E9E9E9 #DFDFDF #DFDFDF;
+	text-shadow: 0 -1px 0 white;
+}
+#megaMenu.megaMenuHorizontal ul.megaMenu > li:first-child > a{
+	border-left:1px solid #DFDFDF;
+}
+#megaMenu ul.megaMenu > li:last-child > a{
+	border-right-color:#ccc;
+}
+
+/* Top Level Tab Background, Color :hover */
+#megaMenu ul.megaMenu > li:hover > a,
+#megaMenu ul.megaMenu > li > a:hover,
+#megaMenu ul.megaMenu > li.megaHover > a,
+#megaMenu ul.megaMenu > li:hover > span.um-anchoremulator,
+#megaMenu ul.megaMenu > li > span.um-anchoremulator:hover,
+#megaMenu ul.megaMenu > li.megaHover > span.um-anchoremulator{
+	
+	background: #f5f5f5;
+	background-image: -ms-linear-gradient(top,#fefefe,#f5f5f5);
+	background-image: -moz-linear-gradient(top,#fefefe,#f5f5f5);
+	background-image: -o-linear-gradient(top,#fefefe,#f5f5f5);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f5f5f5));
+	background-image: -webkit-linear-gradient(top,#fefefe,#f5f5f5);
+	background-image: linear-gradient(top,#fefefe,#f5f5f5);
+	
+	color:#000000;
+}
+#megaMenu ul.megaMenu > li:hover > a, 
+#megaMenu ul.megaMenu > li.megaHover > a, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, 
+#megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	border-color:#ccc;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega:hover > a, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub:hover > a, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega.megaHover > a, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub.megaHover > a,
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega:hover > span.um-anchoremulator, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub:hover > span.um-anchoremulator, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega.megaHover > span.um-anchoremulator, 
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub.megaHover > span.um-anchoremulator{
+	border-bottom-color:#f5f5f5;
+	z-index:30;
+}
+
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1{
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	
+	margin-top:-1px;
+	z-index:25;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu{
+	border-radius:0px 0px 3px 3px;
+	-moz-border-radius:0px 0px 3px 3px;
+	-webkit-border-radius:0px 0px 3px 3px;
+	
+	margin-top:-1px;
+	z-index:25;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu ul.sub-menu{
+	border-radius:0px 3px 0px 3px;
+	-moz-border-radius:0px 3px 0px 3px;
+	-webkit-border-radius:0px 3px 0px 3px;
+}
+#megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1, 
+#megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	background-color: #f5f5f5;
+	background-image: -ms-linear-gradient(top,#f5f5f5,#fefefe);
+	background-image: -moz-linear-gradient(top,#f5f5f5,#fefefe);
+	background-image: -o-linear-gradient(top,#f5f5f5,#fefefe);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#fefefe));
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#fefefe);
+	background-image: linear-gradient(top,#f5f5f5,#fefefe);
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a, #megaMenu ul ul.sub-menu li a{
+	color:#666;
+	font-size:12px;
+	text-shadow:0px 1px 1px #fff;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > a,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li:hover > a, 
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+.wpmega-widgetarea h2.widgettitle{
+	color:#444;
+	font-size:12px;
+	text-shadow:0px 1px 1px #fff;
+	font-weight:bold;
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a:hover, #megaMenu ul ul.sub-menu > li:hover > a{
+	color:#000000;
+}
+.ss-nav-menu-with-img .wpmega-link-title, .ss-nav-menu-with-img .wpmega-link-description{
+	/*padding-left:20px;*/
+}
+.ss-nav-menu-with-img{
+	min-height:20px;
+}
+
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu > li > ul.sub-menu{
+	top:-1px;
+	
+	border-radius:0px 3px 3px 0px;
+	-moz-border-radius:0px 3px 3px 0px;
+	-webkit-border-radius:0px 3px 3px 0px;
+}
+
+
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist div.wpmega-postlist-title a{
+	color:#111;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist div.wpmega-postlist-content,
+#megaMenu ul .widget .textwidget,
+#megaMenu ul .wpmega-nonlink{
+	color: #555;
+}
+
+
+
+/****************** 
+ * VERTICAL
+ ******************/
+ 
+
+
+#megaMenu.megaMenuVertical ul.megaMenu > li > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li.menu-item:first-child > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > a, 
+#megaMenu.megaMenuVertical ul.megaMenu li.mega-with-sub > a, 
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-mega > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li > span.um-anchoremulator,
+#megaMenu.megaMenuVertical ul.megaMenu > li.menu-item:first-child > span.um-anchoremulator,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > span.um-anchoremulator, 
+#megaMenu.megaMenuVertical ul.megaMenu li.mega-with-sub > span.um-anchoremulator, 
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-mega > span.um-anchoremulator{	
+	border-color:#eee #ddd #ddd #ddd;
+	border-top:1px solid #eee;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li:hover > a, 
+#megaMenu.megaMenuVertical ul.megaMenu > li > a:hover, 
+#megaMenu.megaMenuVertical ul.megaMenu > li.megaHover > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li:hover > span.um-anchoremulator, 
+#megaMenu.megaMenuVertical ul.megaMenu > li > span.um-anchoremulator:hover, 
+#megaMenu.megaMenuVertical ul.megaMenu > li.megaHover > span.um-anchoremulator{
+	background:#fefefe;
+	background:#fefefe url(../images/silver_top_vert.png) top right repeat-y;
+	background:-moz-linear-gradient(left, #efefef, #fefefe);
+	background:-webkit-gradient(linear, left top, right top, from(#efefef), to(#fefefe));
+	
+	border-right-color:#fefefe;
+	border-top-color:#fff;
+	
+	border-radius:3px 0px 0px 3px;
+	-moz-border-radius:3px 0px 0px 3px;
+	-webkit-border-radius:3px 0px 0px 3px;
+}
+#megaMenu.megaMenuVertical li.ss-nav-menu-mega ul.sub-menu.sub-menu-1,
+#megaMenu.megaMenuVertical li.ss-nav-menu-reg > ul.sub-menu{
+	margin-left:-1px;
+}
+#megaMenu.megaMenuVertical li.ss-nav-menu-mega ul.sub-menu.sub-menu-1, 
+#megaMenu.megaMenuVertical li.ss-nav-menu-reg ul.sub-menu{
+	background:#fefefe;
+}
+
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu > li > ul.sub-menu {
+	left:100% !important;
+	top:-5px;
+}
+
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform div {
+	padding-top:9px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform input[type="submit"] {
+	background-image: url(../images/search_light.png);
+}
+/* Item Description */
+#megaMenu ul.megaMenu li a span.wpmega-item-description, #megaMenu ul.megaMenu li span.um-anchoremulator span.wpmega-item-description {
+  font-size: 9px;
+  color: #bbbbbb;
+  text-transform: uppercase;
+}

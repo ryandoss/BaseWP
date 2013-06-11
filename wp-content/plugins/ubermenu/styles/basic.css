@@ -1,0 +1,985 @@
+/* Reset */
+#megaMenu div, #megaMenu span, #megaMenu ul, #megaMenu li, #megaMenu a, #megaMenu img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background:transparent;
+	text-shadow:none;
+	visibility:visible;
+	opacity:1;
+	
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/**** ALL ****/
+#megaMenu{
+	position:relative;
+	line-height:1em;
+	overflow:visible;
+	zoom:1;
+	display:block;
+	float:left;
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#megaMenu.megaFullWidth{
+	width:100%;
+}
+#megaMenu ul {		/* All UL */
+	list-style:none outside none;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	overflow:visible;
+	zoom:1;
+}
+#megaMenu ul.megaMenu li{
+	margin-bottom:0px;
+	list-style-type: none;
+	list-style-image: none;
+	border:none;
+	text-align:left;
+}
+#megaMenu ul.megaMenu li a,
+#megaMenu ul.megaMenu li span.um-anchoremulator{
+	line-height:1.2em;
+	text-decoration:none;
+	cursor:pointer;
+	
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+#megaMenu ul.megaMenu li a span,
+#megaMenu ul.megaMenu li span.um-anchoremulator span{
+	color:inherit;
+	font-size:inherit;
+}
+/**** TOP LEVEL ****/
+
+#megaMenu ul.megaMenu{
+	float:left;
+	z-index:100;
+}
+#megaMenu.megaMenuHorizontal ul.megaMenu{
+	width:100%;
+}
+#megaMenu ul.megaMenu > li{
+	float:left;
+	position:relative;
+	display:inline-block;
+	/*line-height:1em;*/
+	padding:0px 0px;
+	margin:0px;
+	z-index:200;
+	zoom:1;
+}
+#megaMenu ul.megaMenu > li > a,
+#megaMenu ul.megaMenu > li > span.um-anchoremulator{
+	display:block;
+	padding:12px 15px;
+	
+	position:relative;
+	z-index:400;
+	zoom:1;
+	
+	border-width:0px 0px 0px 1px;	/* No Bouncing */
+	border-style:solid;
+	border-color:transparent;
+}
+#megaMenu.megaMenuHorizontal ul.megaMenu > li:first-child > a{
+	border-left:none;
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li:first-child > a{
+	border-top:none;
+}
+#megaMenu ul.megaMenu > li:hover,
+#megaMenu ul.megaMenu > li.megaHover,
+#megaMenu ul.megaMenu > li:hover > a,
+#megaMenu ul.megaMenu > li.megaHover > a,
+#megaMenu ul.megaMenu > li:hover > span.um-anchoremulator,
+#megaMenu ul.megaMenu > li.megaHover > span.um-anchoremulator{
+	z-index:600;
+}
+
+/**** DROP LEVEL ****/
+
+#megaMenu ul li.ss-nav-menu-mega{
+	position:static;
+}
+
+#megaMenu.megaMenu-nojs ul ul.sub-menu{
+	display:none;
+}
+
+#megaMenu ul ul.sub-menu{
+	position:absolute;
+	z-index:500;
+	float:left;
+	zoom:1;
+	overflow:visible;
+	visibility:visible;
+	margin:0;
+}
+/*#megaMenu ul ul.sub-menu-1,*/
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu{
+	min-width:99%;
+}
+#megaMenu.megaMenuHorizontal ul.megaMenu > li.menu-item > ul.sub-menu.sub-menu-1{
+	/*border-top:none;*/
+	/* removes border overlap effect */
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	
+	/* IE7 is dumb */
+	*left:0;
+	*top:100%;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li{
+	min-width:100px;
+}
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu li{
+	min-width:50px;
+	position:relative;
+}
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu li a,
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu li span.um-anchoremulator{
+	white-space: nowrap;
+}
+#megaMenu ul ul.sub-menu li a,
+#megaMenu ul ul.sub-menu li span.um-anchoremulator{
+	padding:3px 0px;
+	margin:3px 0px;
+	line-height:1.2em;
+	width:auto;
+	display:block;
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a,
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li span.um-anchoremulator,
+#megaMenu ul ul.sub-menu li a,
+#megaMenu ul ul.sub-menu li span.um-anchoremulator{
+	background:transparent;
+}
+#megaMenu.megaMenu-nojs ul li:hover > ul.sub-menu-1 {
+	display: block;
+	visibility:visible;
+}
+#megaMenu.megaMenu-withjs ul li:hover > ul.sub-menu-1 {
+	display: none;
+}
+#megaMenu ul li.ss-nav-menu-mega  ul.sub-menu ul.sub-menu{
+	display:block;
+	position:relative;
+	top:auto;
+	left:auto;
+}
+#megaMenu li ul.sub-menu{
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+#megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1{
+	border:1px solid transparent;
+	padding:0px;
+	width:auto;
+	white-space:nowrap;
+	left:auto;
+	max-width:100%;
+}
+#megaMenu.wpmega-nojs li.ss-nav-menu-mega ul.sub-menu.sub-menu-1,					/* No JS */
+#megaMenu.megaFullWidthSubs li.ss-nav-menu-mega ul.sub-menu.sub-menu-1,				/* "Full Width Submenus" option */
+#megaMenu li.ss-nav-menu-mega.ss-nav-menu-mega-fullWidth ul.sub-menu.sub-menu-1{	/* Menu Item option */
+	left:0px;
+	width:100%;
+	box-sizing:border-box;
+}
+#megaMenu li.menu-item.ss-nav-menu-mega-floatRight{
+	float:right;
+}
+/* Align Submenu Left */
+#megaMenu li.ss-nav-menu-mega.ss-nav-menu-mega-alignLeft ul.sub-menu.sub-menu-1{
+	left:0px;
+}
+/* Align Submenu Right */
+#megaMenu li.ss-nav-menu-mega.ss-nav-menu-mega-alignRight ul.sub-menu.sub-menu-1{
+	right:0px;
+	left:auto;
+}
+#megaMenu li.ss-nav-menu-mega  ul.sub-menu-1 > li{
+	display: inline-block;
+	float:left;
+	margin-top:5px;
+	margin-bottom:5px;
+	position:relative;
+}
+
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > a,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > span.um-anchoremulator, 
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > span.um-anchoremulator, 
+.wpmega-widgetarea h2.widgettitle{
+	margin-bottom:.6em;
+}
+
+#megaMenu ul li.ss-nav-menu-mega  ul ul.sub-menu li{
+	display: block;
+}
+
+
+
+#megaMenu ul li{
+	font-size:12px;
+	list-style-image:none;
+	letter-spacing:0px;
+}
+
+#megaMenu ul li.ss-nav-menu-mega  ul.sub-menu li{
+	font-size:11px;
+	min-width:100px;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li a,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li span.um-anchoremulator{
+	width:auto;
+	display:block;
+	background:transparent;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu > li:hover > a{
+	background: transparent;
+}
+#megaMenu ul li.ss-nav-menu-mega ul li.ss-nav-menu-item-depth-1{
+	padding:11px 27px; /* Do it in pixels, because IE can't handle rounding ems properly */
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu{
+	width:auto;
+	float:none;
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li{
+	display:block;
+	float:none;	
+}
+#megaMenu ul li.ss-nav-menu-mega .ss-nav-menu-verticaldivision{
+	clear:both;
+}
+#megaMenu ul li.ss-nav-menu-mega .sub-menu-newcol{
+	float:left;
+}
+
+
+#megaMenu li.ss-nav-menu-mega .ss-nav-menu-header a,
+#megaMenu li.ss-nav-menu-mega .ss-nav-menu-header span.um-anchoremulator{
+	font-weight:normal;
+}
+
+#megaMenu li.ss-nav-menu-mega .ss-nav-menu-header > a,
+#megaMenu li.ss-nav-menu-mega .ss-nav-menu-header > span.um-anchoremulator{
+	font-weight:bold;
+	margin-bottom:4px;
+}
+#megaMenu li.ss-nav-menu-mega .megaMenu-thumb{
+	width:15px;
+	height:15px;
+	margin-right:5px;
+	vertical-align:middle;
+}
+#megaMenu ul li.ss-nav-menu-reg a,
+#megaMenu ul li.ss-nav-menu-reg span.um-anchoremulator{
+	display:block;
+}
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu-1{
+	border:1px solid transparent;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu li a,
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu li span.um-anchoremulator{
+	margin:0px;
+	padding:6px 20px 6px 15px;
+}
+#megaMenu ul li.ss-nav-menu-reg ul.sub-menu ul.sub-menu{
+	top:-1px;
+	border-style:solid;
+	border-width:1px;
+}
+#megaMenu.megaMenu-nojs ul li.ss-nav-menu-reg ul.sub-menu > li:hover > ul.sub-menu{
+	display:block;
+	left:100%;
+}
+#megaMenu.megaMenu-withjs ul li.ss-nav-menu-reg ul.sub-menu > li > ul.sub-menu{
+	display:none;
+	left:100%;
+	top:-1px;
+}
+
+#megaMenu ul li.mega-with-sub > a,
+#megaMenu ul li.mega-with-sub > span.um-anchoremulator,
+#megaMenu ul li.ss-nav-menu-mega > a,
+#megaMenu ul li.ss-nav-menu-mega > span.um-anchoremulator{
+	display:block;
+}
+
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > a,
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator,
+#megaMenu ul li.mega-with-sub > a,
+#megaMenu ul li.mega-with-sub > span.um-anchoremulator,
+#megaMenu ul li.ss-nav-menu-mega > a,
+#megaMenu ul li.ss-nav-menu-mega > span.um-anchoremulator{
+	padding-right:20px;
+}
+
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > a:after,
+#megaMenu ul li.mega-with-sub > a:after,
+#megaMenu ul li.ss-nav-menu-mega > a:after,
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator:after,
+#megaMenu ul li.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu ul li.ss-nav-menu-mega > span.um-anchoremulator:after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	right:8px;
+	margin-top:-1px;
+	
+	display:inline-block;
+	background:transparent;
+	
+	border-style: solid dashed dashed;
+	border-color: transparent;
+	border-top-color: #999;
+	font-size: 0;
+	border-width: 3px 3px 0;
+	padding-top: 1px;
+	
+}
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > a:after,
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator:after{
+	width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+
+    border-left: 3px solid #999;
+    padding-top:0;
+    padding-right:2px;
+    margin-top:-2px;
+    right:3px;
+}
+
+
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-highlight > a,
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-highlight > span.um-anchoremulator{
+	color:#4D90FE;
+}
+
+#megaMenu .wpmega-link-title{
+	display:block;
+	line-height:1.4em;
+	color:inherit;
+}
+#megaMenu .wpmega-item-description{
+	display:block; /* inline */
+	clear:none;
+	float:none;
+	line-height:10px;
+	font-size:11px;
+	padding-bottom:3px;
+	font-weight:normal;
+	color:inherit;
+	white-space: normal;
+}
+#megaMenu .ss-nav-menu-with-img{
+	min-height:20px;			/* Height of Pic + Space */
+}
+#megaMenu > ul > li.ss-nav-menu-with-img{
+	min-height:0px;
+}
+#megaMenu .ss-nav-menu-with-img img{
+	float:left;
+	display:block;
+}
+#megaMenu .ss-nav-menu-with-img.ss-nav-menu-notext img{
+	float:none;
+}
+#megaMenu .ss-nav-menu-with-img.ss-nav-menu-notext .wpmega-item-description{
+	padding-left:0px;	
+	padding-bottom:0px;
+}
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-link-title,
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-link-description,
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-item-description,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-link-title,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-link-description,
+#megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-item-description{
+	padding-left:30px;			/* Width of Pic + Space */
+	display:block;
+}
+
+
+
+
+
+/****************** 
+ * VERTICAL
+ ******************/
+ 
+#megaMenu.megaMenuVertical ul.megaMenu > li{
+	padding:0px;
+	display:block;
+}
+#megaMenu ul.megaMenu > li > a,
+#megaMenu ul.megaMenu > li > span.um-anchoremulator{
+	border-left:none;
+}
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-item-depth-0{
+	display:block;
+	float:none;
+	clear:none;
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > a,
+#megaMenu.megaMenuVertical ul.megaMenu li.mega-with-sub > a, 
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-mega > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > span.um-anchoremulator,
+#megaMenu.megaMenuVertical ul.megaMenu li.mega-with-sub > span.um-anchoremulator, 
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-mega > span.um-anchoremulator {
+	display:block;
+}
+/*#megaMenu.megaMenuVertical ul li.ss-nav-menu-reg li.megaReg-with-sub > a:after,*/
+#megaMenu.megaMenuVertical ul li.mega-with-sub > a:after,
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-mega > a:after,
+/*#megaMenu.megaMenuVertical ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator:after,*/
+#megaMenu.megaMenuVertical ul li.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-mega > span.um-anchoremulator:after{
+	
+	top: 50%;
+	right:8px;
+	margin-top:-1px;
+	
+	border-style: solid none solid solid;
+	border-color: transparent;
+	border-left-color: #999;
+	border-width: 2px 0px 2px 3px;
+	padding-right: 1px;	
+}
+
+
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-item-depth-0 ul.sub-menu-1{
+	top:0px;
+	left:100%;
+	width:auto;
+	max-width:720px;
+	/*margin-left:-1px;*/
+}
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	padding:4px 0px;
+}
+
+#megaMenu ul.megaMenu > li > .wpmega-nonlink{
+	padding:3px 12px;
+}
+
+
+
+#megaMenu .wpmega-nonlink{
+	width:auto;
+	white-space: normal;
+}
+#megaMenu .wpmega-nonlink ul{
+	display:block;
+	position:relative;
+	left:auto;
+	top:auto;
+	width:auto;
+	float:none;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	zoom:1;
+	width:100%;
+}
+
+#megaMenu .wpmega-nonlink ul li.widget{
+	margin-bottom:1em;
+	float:left;
+}
+
+#megaMenu .wpmega-nonlink .widgettitle{
+	margin-bottom:.6em;
+}
+
+
+
+/* Recent Posts */
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist li{
+	margin-bottom:1em;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist img{
+	float:left;
+	padding:4px;
+	background:url(images/glass.png) repeat;
+	border:1px solid #e9e9e9;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist-w-img div.wpmega-postlist-title,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist-w-img div.wpmega-postlist-content{
+	padding-left:70px;
+	color:inherit;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist div.wpmega-postlist-title a{
+	padding:4px 0px;
+	font-size:13px;
+}
+
+#megaMenu ul.megaMenu li.ss-nav-menu-mega ul.sub-menu li.ss-nav-menu-item-depth-1.fullWidthRow,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega ul.sub-menu li.ss-nav-menu-item-depth-1.ss-sidebar{
+	margin-right:0px;
+	width:100%;			/* widget area must be full width */
+	padding-left:0;
+	padding-right:0;
+}
+
+
+#megaMenu .wpmega-widgetarea h2.widgettitle{
+	font-size:12px;
+	line-height:1.6em;
+}
+
+
+/* Full Width Menu, Widget & Shortcode Columns */
+.ss-colgroup{}
+
+#megaMenu ul ul .wpmega-nonlink.wpmega-widgetarea ul{
+	float:left;
+}
+
+#megaMenu .ss-colgroup .ss-col,
+#megaMenu .wpmega-nonlink li.widget,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup > ul > li{
+	float:left;
+	padding-left:2.9%;
+	padding-right:2.9%;
+	/* width = FLOOR( ( 100 - (n * (5.8) ) ) / n ), .1 )*/
+}
+
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup ul.sub-menu li.menu-item{
+	min-width:0;
+	white-space:normal;
+}
+
+/* 1 */
+#megaMenu .wpmega-nonlink.ss-colgroup-1 li,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup-1 > ul > li{
+	width:94.2%;
+}
+
+/* 1/2 */
+#megaMenu .ss-colgroup-2 > .ss-col,
+#megaMenu .wpmega-nonlink.ss-colgroup-2 li,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup-2 > ul > li{
+	width:44.2%;
+}
+/* 1/3 */
+#megaMenu .ss-colgroup-3 > .ss-col,
+#megaMenu .wpmega-nonlink.ss-colgroup-3 li,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup-3 > ul > li{
+	width:27.5%;	
+}
+/* 2/3 */
+#megaMenu .ss-colgroup-3 > .ss-col.ss-colspan-2,
+#megaMenu .wpmega-nonlink.ss-colgroup-3 li.ss-colspan-2{
+	width: 60.8%; /* (27.5 + 2.9)*2 */
+}
+
+/* 1/4 */
+#megaMenu .ss-colgroup-4 > .ss-col,
+#megaMenu .wpmega-nonlink.ss-colgroup-4 li,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup-4 > ul > li{
+	width:19.2%;
+}
+/* 2/4 */
+#megaMenu .ss-colgroup-4 > .ss-col.ss-colspan-2,
+#megaMenu .wpmega-nonlink.ss-colgroup-4 li.ss-colspan-2{
+	width:44.2%;
+}
+/* 3/4 */
+#megaMenu .ss-colgroup-4 > .ss-col.ss-colspan-3,
+#megaMenu .wpmega-nonlink.ss-colgroup-4 li.ss-colspan-3{
+	width:69.2%;
+}
+
+/* 1/5 */
+#megaMenu .ss-colgroup-5 > .ss-col,
+#megaMenu .wpmega-nonlink.ss-colgroup-5 li,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup-5 > ul > li{
+	width:14.2%;
+}
+/* 2/5 */
+#megaMenu .ss-colgroup-5 > .ss-col.ss-colspan-2,
+#megaMenu .wpmega-nonlink.ss-colgroup-5 li.ss-colspan-2{
+	width:34.2%;
+}
+/* 3/5 */
+#megaMenu .ss-colgroup-5 > .ss-col.ss-colspan-3,
+#megaMenu .wpmega-nonlink.ss-colgroup-5 li.ss-colspan-3{
+	width:54.2%;
+}
+/* 4/5 */
+#megaMenu .ss-colgroup-5 > .ss-col.ss-colspan-4,
+#megaMenu .wpmega-nonlink.ss-colgroup-5 li.ss-colspan-4{
+	width:74.2%;
+}
+
+#megaMenu .wpmega-nonlink li.widget li{
+	width:auto;
+}
+
+/* 1/6 */
+#megaMenu .ss-colgroup-6 > .ss-col,
+#megaMenu .wpmega-nonlink.ss-colgroup-6 li,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup-6 > ul > li{
+	width:10.8%;
+	max-width:10.8%;
+	overflow:hidden;
+}
+/* 1/7 */
+#megaMenu .ss-colgroup-7 > .ss-col,
+#megaMenu .wpmega-nonlink.ss-colgroup-7 li,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup-7 > ul > li{
+	width:8.4%;
+}
+/* 1/8 */
+#megaMenu .ss-colgroup-8 > .ss-col,
+#megaMenu .wpmega-nonlink.ss-colgroup-8 li,
+#megaMenu ul.megaMenu li.ss-nav-menu-mega.mega-colgroup-8 > ul > li{
+	width:6.7%;
+}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+
+	#megaMenu.megaResponsive ul.megaMenu > li{
+		width:100%;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li .ss-colgroup > .ss-col,
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li,
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.ss-sidebar > .wpmega-nonlink > ul > li.widget{
+		
+		width: 80%;
+		padding-left:10%;
+		padding-right:10%;
+		max-width:none;
+		
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.ss-nav-menu-item-depth-1.fullWidthRow, 
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.ss-nav-menu-item-depth-1.ss-sidebar{
+		padding-left:0;
+		padding-right:0;
+		width: 100%;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li .ss-colgroup > .ss-col{
+		margin-bottom:1em;
+	}
+	
+	/* Remove box shadow and border on menu items, since we're probably wrapping at this poing */
+	#megaMenu.megaResponsive.megaMenuHorizontal ul.megaMenu > li.menu-item > a, 
+	#megaMenu.megaResponsive.megaMenuHorizontal ul.megaMenu > li.menu-item > span.um-anchoremulator,
+	#megaMenu.megaResponsive ul.megaMenu > li:hover > a, 
+	#megaMenu.megaResponsive ul.megaMenu > li > a:hover, 
+	#megaMenu.megaResponsive ul.megaMenu > li.megaHover > a{
+		box-shadow:none;
+		border-left:none;
+	}
+	
+}
+
+/* #Mobile (Landscape)
+================================================== */
+
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	#megaMenu.megaResponsive ul.megaMenu > li{
+		width:50%;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1{
+		left:0px;
+		width:100%;
+		box-sizing:border-box;
+		box-shadow:none !important;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li{
+		width: 38%;
+		padding-left:6%;
+		padding-right:6%;
+		max-width:none;
+	}
+	
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1 > li.ss-sidebar > .wpmega-nonlink > ul > li.widget{
+		width: 88%;
+		padding-left:6%;
+		padding-right:6%;
+		max-width:none;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	
+	/* Flyout Menus */
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-reg{
+		position:static;
+	}
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-reg ul.sub-menu,
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-reg ul.sub-menu li ul.sub-menu{		
+		left:-1px;
+		width:100%;
+		box-shadow:none !important;
+	}
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-reg ul.sub-menu li ul.sub-menu{	
+		top:100%;
+		
+	}
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-reg ul.sub-menu > li > a:after,
+	#megaMenu.megaResponsive ul.megaMenu li.ss-nav-menu-reg ul.sub-menu > li > span.um-anchoremulator:after{
+		border-color: #ddd transparent transparent transparent;
+		border-width: 3px 3px 0px;
+		border-style: solid dashed dashed;
+		right:10px;
+		padding-top:0;
+    	padding-right:2px;
+    	margin-top:-3px;
+	}
+
+}
+
+
+/** CONTACT FORM 7 (External Plugin) **/
+.wpmega-nonlink div.wpcf7 form{
+	margin-bottom:0;
+}
+.wpmega-nonlink div.wpcf7 p{
+	margin-bottom:.1em;
+	clear:both;
+}
+.wpmega-nonlink div.wpcf7 label{
+	width:50px;
+	float:left;
+	padding-top:.4em;
+	color:inherit;
+}
+.wpmega-nonlink div.wpcf7 span{
+	position:relative;
+}
+.wpmega-nonlink div.wpcf7 input[type="text"],
+.wpmega-nonlink div.wpcf7 textarea{
+	/*width:255px;*/
+	width:95%;
+	padding:.4em;
+	border:1px solid #dfdfdf;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	font-family:inherit;
+	max-height:100px;
+	font-size:12px;
+	margin-top:.1em;
+	margin-bottom:.1em;
+	position:relative;
+	float:left;
+}
+.wpmega-nonlink div.wpcf7 input[type="text"]:focus,
+.wpmega-nonlink div.wpcf7 input[type="text"]:hover,
+.wpmega-nonlink div.wpcf7 textarea:focus,
+.wpmega-nonlink div.wpcf7 textarea:hover{
+	background:#fcfcfc;
+} 
+.wpmega-nonlink div.wpcf7 input.wpcf7-submit{
+	font-size:12px;
+	clear:both;
+}
+.wpcf7-form-control-wrap span.wpcf7-not-valid-tip{
+	position:absolute;
+	top:-9px;
+	left:0px;
+	padding:9px 6px;
+	width:95%;
+	font-size:12px;
+}
+.wpcf7-form div.wpcf7-response-output{
+	width:93%;
+}
+
+
+
+#megaMenu .wpmega-divider-container{
+	width:100%;
+	margin:0px;
+}
+
+#megaMenu .wpmega-divider{
+	border:none;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #fff;
+	/*margin:0px 10px 10px 10px;*/
+	margin:0px 0px 10px 0px;
+	clear:both;
+	height:0px;
+	display:block;
+}
+
+#megaMenu .fullWidthRow .wpmega-divider{
+	margin:0 2.9% 10px 2.9%;
+}
+
+#megaMenu ul ul.sub-menu li .wpmega-nonlink a{
+	padding:0px;
+}
+
+/* Top Level Search Bar */
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea{
+	padding-left:10px;
+	padding-right:10px;	
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li{
+	margin:0px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > .widgettitle{
+	float:left;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform div{
+	padding-top:7px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform input[type="text"]{
+	width:115px;
+	font-size:12px;
+	border:1px solid #000;
+	height:16px;
+	float:left;
+	padding:1px 3px;
+	border-radius:2px 0px 0px 2px;
+	-moz-border-radius:2px 0px 0px 2px;
+	-webkit-border-radius:2px 0px 0px 2px;
+	line-height:16px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform input[type="submit"]{
+	width:20px;
+	height:20px;
+	background:#000 url(images/search.png) center no-repeat;
+	border:1px solid #000;
+	display:inline-block;
+	float:left;
+	cursor:pointer;
+	border-radius:0px 2px 2px 0px;
+	-moz-border-radius:0px 2px 2px 0px;
+	-webkit-border-radius:0px 2px 2px 0px;
+	text-indent:-999em;
+}
+
+#megaMenu > ul.megaMenu > li > .wpmega-nonlink > form#searchform{
+	margin:2px 0 0 0;
+	padding:0;
+	position:relative;
+	min-width:160px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-nonlink > form#searchform label{
+	display:none;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-nonlink > form#searchform input{
+	float:left;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-nonlink > form#searchform input[type="text"]{
+	width:120px;
+	height:16px;
+	margin:0;
+	padding:5px 6px 4px 6px;
+	border-right:none;
+}
+#megaMenu.megaMenuVertical > ul.megaMenu > li > .wpmega-nonlink > form#searchform input[type="text"]{
+	margin-bottom:5px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-nonlink > form#searchform input[type="submit"]{
+	position:relative;
+	margin:0;
+	
+	background: #eee; /* Old browsers */
+	background: #eee -moz-linear-gradient(top, rgba(255,255,255,.2) 0%, rgba(0,0,0,.2) 100%); /* FF3.6+ */
+	background: #eee -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.2)), color-stop(100%,rgba(0,0,0,.2))); /* Chrome,Safari4+ */
+	background: #eee -webkit-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* Chrome10+,Safari5.1+ */
+	background: #eee -o-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* Opera11.10+ */
+	background: #eee -ms-linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* IE10+ */
+	background: #eee linear-gradient(top, rgba(255,255,255,.2) 0%,rgba(0,0,0,.2) 100%); /* W3C */
+	
+	border: 1px solid #aaa;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 2px 8px;
+	
+	color: #444;
+	display: inline-block;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(255, 255, 255, .75);
+	cursor: pointer;
+	line-height: 21px;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	margin-left:-1px;
+	min-height:27px;
+	min-height:20px\9; /* Seriously, IE? */
+}
+
+#megaMenu > ul.megaMenu > li > .wpmega-nonlink > form#searchform input[type="submit"]:hover {
+	color: #222;
+	background: #ddd; /* Old browsers */
+	background: #ddd -moz-linear-gradient(top, rgba(255,255,255,.3) 0%, rgba(0,0,0,.3) 100%); /* FF3.6+ */
+	background: #ddd -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,.3)), color-stop(100%,rgba(0,0,0,.3))); /* Chrome,Safari4+ */
+	background: #ddd -webkit-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Chrome10+,Safari5.1+ */
+	background: #ddd -o-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* Opera11.10+ */
+	background: #ddd -ms-linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* IE10+ */
+	background: #ddd linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* W3C */
+	border: 1px solid #888;
+	border-top: 1px solid #aaa;
+}
+
+.uber-close{
+	top:-18px;
+	position:absolute;
+	text-decoration: none;
+}
+
+/* Centering */
+#megaMenu.megaCenterMenubar,
+#megaMenu.megaCenterInner ul.megaMenu{
+	margin: 0 auto;
+	float: none;
+}
+#megaMenu.megaCenterMenubar ul.megaMenu{
+	float:none;
+}
+
+
+/* Clearfix */
+#megaMenu.megaClear ul.megaMenu:before,
+#megaMenu.megaClear ul.megaMenu:after {
+    content:"";
+    display:table;
+}
+#megaMenu.megaClear ul.megaMenu:after {
+    clear:both;
+}
+#megaMenu.megaClear ul.megaMenu {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}

@@ -1,0 +1,145 @@
+/* css to style the admin menu nicely */
+
+#adminmenu .mf-menu-edit-posts div.wp-menu-image,
+#adminmenu .mf-menu-edit-pages div.wp-menu-image  {
+    background:transparent url('../../../../wp-admin/images/menu.png') no-repeat scroll -272px -33px;
+}
+#adminmenu .mf-menu-edit-posts:hover div.wp-menu-image {
+	background-position: -272px -1px;
+}
+
+#adminmenu .mf-menu-edit-pages div.wp-menu-image {
+    background-position: -151px -33px;
+}
+#adminmenu .mf-menu-edit-pages:hover div.wp-menu-image {
+	background-position: -151px -1px;
+}
+.mf-field label.error{
+	height:15px;
+	margin-top:-5px;
+	padding-top:5px;
+}
+.Checkbox .block { display: block; }
+.mf-field label.error { display: none; }
+.error_magicfields {
+	background-color:#FFEBE8;
+	border-color:#CC0000; 
+	border-style:solid;
+	border-width:1px;	
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+}
+label.error_magicfields {
+	height:13px;
+	padding-top:3px;
+	padding-left:7px;
+}
+.mul_mf .wp_themeSkin .mceStatusbar a.mceResize {top:auto !important;}
+
+.mf-panel-info {
+  background: url("../images/mf_field.png") repeat-x scroll 0 0 #F8F8F8;
+  padding: 6px 10px;
+  border: 1px solid #EAEAEA;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+#poststuff .inside .mf-panel-info p {
+  margin: 0;
+}
+
+.mf-panel-info span {
+  font-weight: bold;
+}
+.mf-panel-info span.none {
+  color: #999;
+}
+
+div.mf-panel-info h5 {
+  padding: 7px 2px;
+  border-bottom: 1px solid #ddd;
+  margin: 0 0 0px 0;
+  font-size: 10px;
+  color: #666;
+}
+
+div.mf-panel-info p {
+  font-size: 10px;
+  border-top: 1px solid #fff;
+  line-height: 20px !important;
+  padding: 4px 2px 4px 2px; 
+}
+
+#rc-cwp-set-buttons {
+  display: none;
+}
+
+#rc-cwp-change-custom-write-panel-id {
+  width: 90%;
+  margin-left: 4px;
+}
+
+
+.has-right-sidebar .inner-sidebar {
+z-index:1;
+}
+#wpbody-content span.required {
+color: #F00;
+}
+#wpbody-content .help_text {
+	color: #666;
+	font-style: italic;
+	}
+	#wpbody-content .help_text.strict {
+		color: #F00;
+		}
+#wpbody-content sup.multiple {
+color: #21759B;
+}
+
+
+input#custom-field-default-value,
+input#custom-field-name,
+textarea#custom-field-options {
+  font-family: "consolas", "lucida sans", "andale mono", monospace;
+  font-size: 13px;
+}
+
+textarea#custom-field-options {
+  height: 170px;
+}
+
+input#custom-field-helptext {
+  width: 98%;
+}
+
+.handler {
+  margin:2px;
+  display:block;
+  cursor:move;
+}
+
+.handler img{
+  height:20px;
+}
+
+.ui-sortable-helper {
+  width: 100%;
+  border:1px solid #DFDFDF;
+} 
+
+.ui-state-highlight {
+  height: 1.5em; 
+  line-height: 1.2em;
+}
+
+.mf_add_group_field,
+.mf_delete_group_field {
+  font-size:10px;
+}
+
+.mf-no-default-group a{
+  text-decoration:none;
+}

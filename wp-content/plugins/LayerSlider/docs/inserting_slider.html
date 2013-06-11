@@ -1,0 +1,39 @@
+<h3>Inserting the slider with shortcode</h3>
+<p>
+	You can place your sliders into pages and posts with their shortcodes.
+	You can find the shortcode for each slider in this page next to their names
+	in the list view. To insert the slider, edit a page or post and insert its
+	shortcode into the WordPress text editor.
+</p>
+
+<h3>Inserting the slider with the LayerSlider WP widget</h3>
+<p>
+	LayerSlider WP supports widgets, so you can place your slider in your
+	front-end page just by a drag n' drop. To do that, navigate to the Appearance
+	menu on your left sidebar and select "Widgets". Grab the LayerSlider WP
+	Widget and drop it into one of your widget area. <br><br>
+
+	Please note that some themes may not support a widget area what you need.
+	In this case, you can create a new widget area by editing your theme files.
+	<a href="http://codex.wordpress.org/Widgetizing_Themes" target="_blank">Here</a>
+	is the official documentation about widgetizing your theme.
+</p>
+
+<h3>Calling the slider from your theme files</h3>
+<p>
+	If you want to hardcode the slider into your theme files, you can use
+	the shortcode for that. There is no any special function to call, WordPress
+	already supports these kind of things with the "do_shortcode()" function.
+	This function waits for a shortcode to its parameter, see the first point of
+	this section to where you can find the right shortcode.
+
+	<br><br>
+	Example: &lt;?php echo do_shortcode('[layerslider id=&quot;1&quot;]'); ?&gt;
+</p>
+
+<h3>Troubleshooting</h3>
+<p>
+	Your sublayers are not animating properly just sliding in without any effects? Did you use the shortcode to put the slider on your page?
+	If the answer is yes, please go to the page or post editor and in the WP Text Editor click on the HTML view upper right corner of the editor box.
+	Please check if the shortcode is inside a CODE element or not. If yes, please remove the opening and closing tag of that CODE element and save your page or post.
+</p>

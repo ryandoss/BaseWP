@@ -1,0 +1,43 @@
+/* #Media Queries
+================================================== */
+
+	/* Larger than standard 960 (devices and browsers) */
+	@media only screen and (min-width: 960px) {
+		.container { width:1180px; }
+	}
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 959px) and (max-width: 1179px) {
+		.container { width:960px; }
+	}
+
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+		
+	}
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.container { width: 767px; }
+	}
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.one_half,.one_third,.two_third,.three_fourth,.one_fourth,.one_fifth,.two_fifth,.three_fifth,.four_fifth,.one_sixth,.five_sixth{ position:relative; width:100%; margin-left:0; float:none; }
+	}
+
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.container { width: 479px; }
+	}
+
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		.container { width:310px; }
+	}

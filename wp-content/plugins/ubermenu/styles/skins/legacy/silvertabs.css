@@ -1,0 +1,183 @@
+
+#megaMenu ul.megaMenu{
+	background-color:transparent;	
+}
+#megaMenu ul.megaMenu > li > a{
+	font-size:13px;
+	color:#333333;
+	text-shadow:0px 1px 1px #fff;
+	
+	border-color:#ccc #eee #ccc #ccc;
+	
+	background-color:#d9d9d9;
+	background:#fefefe url(../images/silver_top.png) bottom left repeat-x;
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#d9d9d9' )";*/
+	background:-moz-linear-gradient(top, #fefefe, #d9d9d9);
+	background:-webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#d9d9d9));
+	
+	border-radius:3px 3px 0px 0px;
+	-moz-border-radius:3px 3px 0px 0px;
+	-webkit-border-radius:3px 3px 0px 0px;
+	
+	font-weight:bold;
+}
+#megaMenu ul.megaMenu > li:last-child > a{
+	border-right-color:#ccc;
+}
+
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li > a:hover, #megaMenu ul.megaMenu > li.megaHover > a{
+	
+	background:#fefefe;
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9d9d9', endColorstr='#fefefe')";
+	background:-moz-linear-gradient(top, #d9d9d9, #fefefe);
+	background:-webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#fefefe));
+	
+	color:#000000;
+}
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li.megaHover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	border-color:#aaa;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega:hover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub:hover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-mega.megaHover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-reg.mega-with-sub.megaHover > a{
+	border-bottom-color:#fefefe;
+}
+#megaMenu ul ul.sub-menu{
+	top:96%;
+}
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu{
+}
+#megaMenu ul.megaMenu > li:hover > a{
+	border-radius:3px 3px 0px 0px;
+	-moz-border-radius:3px 3px 0px 0px;
+	-webkit-border-radius:3px 3px 0px 0px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1{
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu{
+	border-radius:0px 0px 3px 3px;
+	-moz-border-radius:0px 0px 3px 3px;
+	-webkit-border-radius:0px 0px 3px 3px;
+}
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu ul.sub-menu{
+	border-radius:0px 3px 0px 3px;
+	-moz-border-radius:0px 3px 0px 3px;
+	-webkit-border-radius:0px 3px 0px 3px;
+}
+#megaMenu li.ss-nav-menu-mega ul.sub-menu.sub-menu-1, 
+#megaMenu li.ss-nav-menu-reg ul.sub-menu{
+	background:#e9e9e9 url(../images/silver_sub.png) top left repeat-x;
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#e9e9e9');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#e9e9e9')";*/
+	background:-moz-linear-gradient(top, #fefefe, #e9e9e9);
+	background:-webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#e9e9e9));
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a, #megaMenu ul ul.sub-menu li a{
+	color:#666;
+	font-size:12px;
+	text-shadow:0px 1px 1px #fff;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > a,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li:hover > a, 
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+.wpmega-widgetarea h2.widgettitle{
+	color:#444;
+	font-size:12px;
+	text-shadow:0px 1px 1px #fff;
+	font-weight:bold;
+}
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a:hover, #megaMenu ul ul.sub-menu > li:hover > a{
+	color:#000000;
+}
+.ss-nav-menu-with-img .wpmega-link-title, .ss-nav-menu-with-img .wpmega-link-description{
+	/*padding-left:20px;*/
+}
+.ss-nav-menu-with-img{
+	min-height:20px;
+}
+
+#megaMenu ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu > li > ul.sub-menu{
+	top:-1px;
+	border-left-color:#e9e9e9;
+	border-radius:0px 3px 3px 0px;
+	-moz-border-radius:0px 3px 3px 0px;
+	-webkit-border-radius:0px 3px 3px 0px;
+}
+
+/* Remove dropdown arrows - we can't use them anyway because of the gradient bkg */
+#megaMenu ul li.mega-with-sub > a,
+#megaMenu ul li.ss-nav-menu-mega > a{
+	padding-right:10px;
+	display:block;
+}
+
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist div.wpmega-postlist-title a{
+	color:#111;
+}
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu li ul.wpmega-postlist div.wpmega-postlist-content,
+#megaMenu ul .widget .textwidget,
+#megaMenu ul .wpmega-nonlink{
+	color: #555;
+}
+
+
+
+/****************** 
+ * VERTICAL
+ ******************/
+ 
+
+
+#megaMenu.megaMenuVertical ul.megaMenu > li > a,
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > a, 
+#megaMenu.megaMenuVertical ul.megaMenu li.mega-with-sub > a, 
+#megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-mega > a{
+	
+	background:#fefefe url(../images/silver_top_vert.png) top right repeat-y;
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#383838', endColorstr='#000000', gradientType='1')";*/
+	background:-moz-linear-gradient(left, #fefefe, #d9d9d9);
+	background:-webkit-gradient(linear, left top, right top, from(#fefefe), to(#d9d9d9));
+	
+	border-color:#ccc #ccc #ddd #ccc;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li:hover > a, 
+#megaMenu.megaMenuVertical ul.megaMenu > li > a:hover, 
+#megaMenu.megaMenuVertical ul.megaMenu > li.megaHover > a{
+	background:#fefefe;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#fefefe', gradientType='1');
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef', endColorstr='#fefefe', gradientType='1')";
+	background:-moz-linear-gradient(left, #efefef, #fefefe);
+	background:-webkit-gradient(linear, left top, right top, from(#efefef), to(#fefefe));
+	
+	border-right-color:#fefefe;
+	border-top-color:#fff;
+	
+	border-radius:3px 0px 0px 3px;
+	-moz-border-radius:3px 0px 0px 3px;
+	-webkit-border-radius:3px 0px 0px 3px;
+}
+#megaMenu.megaMenuVertical li.ss-nav-menu-mega ul.sub-menu.sub-menu-1, 
+#megaMenu.megaMenuVertical li.ss-nav-menu-reg ul.sub-menu{
+	background:#fefefe; /*fff; /*df7;*/
+	
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#efefef', gradientType='1')";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#efefef', gradientType='1');*/
+	background:-moz-linear-gradient(left, #fefefe, #efefef); /*#, #ff8b00);*/
+	background:-webkit-gradient(linear, left top, right top, from(#fefefe), to(#efefef));
+}
+
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-reg ul.sub-menu > li > ul.sub-menu {
+	left:100% !important;
+	top:-5px;
+}
+
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform div {
+	padding-top:9px;
+}
+#megaMenu > ul.megaMenu > li > .wpmega-widgetarea > ul > li > form#searchform input[type="submit"] {
+	background-image: url(../images/search_light.png);
+}

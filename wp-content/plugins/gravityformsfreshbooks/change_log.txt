@@ -1,0 +1,29 @@
+---------------------------------------------------------------------
+Version 1.4
+    - Updated AJAX URL to resolve conflict when site is running under SSL
+    - Fixed a notice message
+
+---------------------------------------------------------------------
+Version 1.3
+    - Added new conditional logic options (greater than, less than, contains starts with, ends with) and support for other conditional fields
+    - Fixed notices
+    - Added support for logging
+    - Added support for Manage WP
+
+---------------------------------------------------------------------
+Version 1.2
+    - Added support for pricing fields
+    - Fixed notices
+    - Fixed issue where RG_CURRENT_PAGE constant was not available when GF is deactivated
+    - Added "Cancel" button to Edit page
+    - Updated List page to display the correct message when user doesn't have any feeds configured
+
+---------------------------------------------------------------------
+Version 1.1
+    - Fixed issue with automatic upgrade on WP 3.0
+
+---------------------------------------------------------------------
+Version 1.0
+    - Fixed issue with export condition that was only accurate after save button was clicked
+    - Changed submit button label to "Save Feed" for new feeds and "Update Feed" for existing feeds
+    - Fixed issue with multiple feeds being created

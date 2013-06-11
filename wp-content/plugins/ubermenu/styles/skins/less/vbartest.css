@@ -1,0 +1,197 @@
+/**********************************************************************
+ * UberMenu Skin: Vanilla Bar
+ *
+ * UberMenu - WordPress Mega Menu Plugin http://wpmegamenu.com
+ * Copyright: Chris Mavricos, SevenSpark http://sevenspark.com
+ **********************************************************************/
+/* Menu Bar */
+#megaMenu {
+  border: 1px solid #e0e0e0;
+  background-color: #fefefe;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#f4f4f4));
+  background: -webkit-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -moz-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -ms-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -o-linear-gradient(top, #fefefe, #f4f4f4);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+  -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+}
+/* Top Level Items */
+#megaMenu ul.megaMenu > li > a, #megaMenu ul.megaMenu > li > span.um-anchoremulator {
+  font-size: 12px;
+  color: #888888;
+  padding: 12px 15px;
+  font-weight: normal;
+}
+/* Horizontal Menu Items */
+#megaMenu.megaMenuHorizontal ul.megaMenu > li > a, #megaMenu.megaMenuHorizontal ul.megaMenu > li > span.um-anchoremulator {
+  border-left: 1px solid #f0f0f0;
+  -webkit-box-shadow: inset 1px 0px 0px 0px rgba(255, 255, 255, 0.9);
+  -moz-box-shadow: inset 1px 0px 0px 0px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 1px 0px 0px 0px rgba(255, 255, 255, 0.9);
+}
+/* Vertical Menu Items */
+#megaMenu.megaMenuVertical ul.megaMenu > li > a, #megaMenu.megaMenuVertical ul.megaMenu > li > span.um-anchoremulator {
+  border-top: 1px solid #f0f0f0;
+  -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+  -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.9);
+}
+/* Menu Items with Dropdowns */
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > a,
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator,
+#megaMenu ul li.mega-with-sub > a,
+#megaMenu ul li.mega-with-sub > span.um-anchoremulator,
+#megaMenu ul li.ss-nav-menu-mega > a,
+#megaMenu ul li.ss-nav-menu-mega > span.um-anchoremulator {
+  padding-right: 20px;
+}
+/* Top Level Menu Item Titles */
+#megaMenu ul.megaMenu > li > a span.wpmega-link-title, #megaMenu ul.megaMenu > li > span.um-anchoremulator span.wpmega-link-title {
+  text-transform: none;
+  text-shadow: 0 -1px 1px #ffffff;
+}
+/* Top Level Items - Hover */
+#megaMenu ul.megaMenu > li:hover > a, #megaMenu ul.megaMenu > li > a:hover, #megaMenu ul.megaMenu > li.megaHover > a {
+  color: #222222;
+  border-bottom-color: transparent !important;
+  background-color: transparent;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background: -webkit-linear-gradient(top, transparent, transparent);
+  background: -moz-linear-gradient(top, transparent, transparent);
+  background: -ms-linear-gradient(top, transparent, transparent);
+  background: -o-linear-gradient(top, transparent, transparent);
+  -webkit-box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.9);
+  -moz-box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.9);
+  box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.9);
+}
+/* Top Level Items Title - Hover */
+#megaMenu ul.megaMenu > li:hover > a span.wpmega-link-title,
+#megaMenu ul.megaMenu > li:hover > span.um-anchoremulator span.wpmega-link-title,
+#megaMenu ul.megaMenu > li > a:hover span.wpmega-link-title,
+#megaMenu ul.megaMenu > li > span.um-anchoremulator:hover span.wpmega-link-title,
+#megaMenu ul.megaMenu > li.megaHover > a span.wpmega-link-title,
+#megaMenu ul.megaMenu > li.megaHover > span.um-anchoremulator span.wpmega-link-title {
+  text-shadow: 0 -1px 1px #ffffff;
+}
+/* Top Level Items - Current Item */
+#megaMenu ul.megaMenu > li.current-menu-item > a, #megaMenu ul.megaMenu > li.current-menu-parent > a, #megaMenu ul.megaMenu > li.current-menu-ancestor > a {
+  color: #444444;
+}
+/* Sub Menu Container Style */
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu ul.megaMenu li.ss-nav-menu-reg ul.sub-menu {
+  border-color: #e0e0e0;
+  color: #888888;
+  text-shadow: 0px 1px 1px #ffffff;
+  -webkit-box-shadow: 1px 1px 1px #dddddd;
+  -moz-box-shadow: 1px 1px 1px #dddddd;
+  box-shadow: 1px 1px 1px #dddddd;
+  background-color: #f9f9f9;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fefefe));
+  background: -webkit-linear-gradient(top, #f9f9f9, #fefefe);
+  background: -moz-linear-gradient(top, #f9f9f9, #fefefe);
+  background: -ms-linear-gradient(top, #f9f9f9, #fefefe);
+  background: -o-linear-gradient(top, #f9f9f9, #fefefe);
+}
+/* Horizontal Sub Menus */
+#megaMenu.megaMenuHorizontal ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu.megaMenuHorizontal ul.megaMenu li.ss-nav-menu-reg ul.sub-menu {
+  border-top: 1px solid #e0e0e0;
+}
+/* Sub Menu Columns */
+#megaMenu ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1 > li {
+  min-width: 120px;
+}
+/* Sub Menu Headers */#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > a,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li:hover > a,
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > a,
+#megaMenu ul li.ss-nav-menu-mega ul.sub-menu-1 > li > span.um-anchoremulator,
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu .ss-nav-menu-header > span.um-anchoremulator,
+.wpmega-widgetarea h2.widgettitle {
+  color: #777777;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px #ffffff;
+  padding-bottom: .4em;
+  border-bottom: 1px dotted #e9e9e9;
+  margin-bottom: 0.6em;
+}
+/* Sub Menu Links & Fake Links */
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li > a,
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li > span.um-anchoremulator,
+#megaMenu ul ul.sub-menu li > a,
+#megaMenu ul ul.sub-menu li > span.um-anchoremulator {
+  color: #888888;
+  font-size: 12px;
+  text-shadow: 0px 1px 1px #ffffff;
+  background-color: transparent;
+}
+/* Sub Menu Link Hover */
+#megaMenu ul li.ss-nav-menu-mega ul ul.sub-menu li a:hover, #megaMenu ul ul.sub-menu > li:hover > a {
+  color: #000000;
+  background-color: transparent;
+}
+/* Top Level Search Bar */
+#megaMenu ul.megaMenu > li.menu-item > .wpmega-nonlink > form#searchform {
+  padding-top: 2px;
+}
+/* Highlight color */
+#megaMenu ul.megaMenu li.menu-item.ss-nav-menu-highlight > a, #megaMenu ul.megaMenu li.menu-item.ss-nav-menu-highlight > span.um-anchoremulator {
+  color: #d83f28 !important;
+}
+/* Image Spacing */
+.ss-nav-menu-with-img .wpmega-link-title, .ss-nav-menu-with-img .wpmega-link-description {
+  padding-left: 30px;
+}
+.ss-nav-menu-with-img {
+  min-height: 25px;
+}
+/* Item Description */
+#megaMenu ul.megaMenu li a span.wpmega-item-description, #megaMenu ul.megaMenu li span.um-anchoremulator span.wpmega-item-description {
+  font-size: 9px;
+  color: #bbbbbb;
+  text-transform: uppercase;
+}
+/* Arrow Colors */
+#megaMenu ul li.mega-with-sub > a:after,
+#megaMenu ul li.ss-nav-menu-mega > a:after,
+#megaMenu ul li.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu ul li.ss-nav-menu-mega > span.um-anchoremulator:after {
+  border-top-color: #bbbbbb;
+}
+#megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > a:after, #megaMenu ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator:after {
+  border-left-color: #bbbbbb;
+}
+/* Vertical */
+#megaMenu.megaMenuVertical > ul > li > a, #megaMenu.megaMenuVertical > ul > li > span.um-anchoremulator {
+  background-color: #fefefe;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#f4f4f4));
+  background: -webkit-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -moz-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -ms-linear-gradient(top, #fefefe, #f4f4f4);
+  background: -o-linear-gradient(top, #fefefe, #f4f4f4);
+}
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-reg li.megaReg-with-sub > a:after,
+#megaMenu.megaMenuVertical ul li.mega-with-sub > a:after,
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-mega > a:after,
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-reg li.megaReg-with-sub > span.um-anchoremulator:after,
+#megaMenu.megaMenuVertical ul li.mega-with-sub > span.um-anchoremulator:after,
+#megaMenu.megaMenuVertical ul li.ss-nav-menu-mega > span.um-anchoremulator:after {
+  border-left-color: #bbbbbb;
+}
+#megaMenu.megaMenuVertical ul.megaMenu > li.ss-nav-menu-mega > ul.sub-menu-1, #megaMenu.megaMenuVertical ul.megaMenu li.ss-nav-menu-reg > ul.sub-menu {
+  border-left: 1px solid #e0e0e0;
+}
+/* IE7 Hacks */
+#megaMenu.megaMenuHorizontal ul.megaMenu {
+  *border-bottom: none;
+}
+#megaMenu.megaMenuVertical ul.megaMenu {
+  *border-right: none;
+}
